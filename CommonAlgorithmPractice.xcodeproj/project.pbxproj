@@ -13,6 +13,13 @@
 		073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */; };
 		073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C4231E6AAA004B5B9F /* TimeConversion.swift */; };
 		073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C6231E7755004B5B9F /* GameOfStones.swift */; };
+		073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C8231E839B004B5B9F /* TowerBreakers.swift */; };
+		073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19CA231E8920004B5B9F /* GradingStudents.swift */; };
+		073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19CC231E8AD8004B5B9F /* QueueExam.swift */; };
+		073C19CF231E91FB004B5B9F /* AppleAndOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19CE231E91FB004B5B9F /* AppleAndOrange.swift */; };
+		073C19D1231E9549004B5B9F /* Kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19D0231E9549004B5B9F /* Kangaroo.swift */; };
+		073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */; };
+		073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19D4231EA4B1004B5B9F /* SockMerchant.swift */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -38,6 +45,13 @@
 		073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandies.swift; sourceTree = "<group>"; };
 		073C19C4231E6AAA004B5B9F /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		073C19C6231E7755004B5B9F /* GameOfStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfStones.swift; sourceTree = "<group>"; };
+		073C19C8231E839B004B5B9F /* TowerBreakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerBreakers.swift; sourceTree = "<group>"; };
+		073C19CA231E8920004B5B9F /* GradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingStudents.swift; sourceTree = "<group>"; };
+		073C19CC231E8AD8004B5B9F /* QueueExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExam.swift; sourceTree = "<group>"; };
+		073C19CE231E91FB004B5B9F /* AppleAndOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAndOrange.swift; sourceTree = "<group>"; };
+		073C19D0231E9549004B5B9F /* Kangaroo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kangaroo.swift; sourceTree = "<group>"; };
+		073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenToSets.swift; sourceTree = "<group>"; };
+		073C19D4231EA4B1004B5B9F /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -64,7 +78,14 @@
 				073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */,
 				073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */,
 				073C19C6231E7755004B5B9F /* GameOfStones.swift */,
+				073C19C8231E839B004B5B9F /* TowerBreakers.swift */,
+				073C19CA231E8920004B5B9F /* GradingStudents.swift */,
 				073C19C4231E6AAA004B5B9F /* TimeConversion.swift */,
+				073C19CC231E8AD8004B5B9F /* QueueExam.swift */,
+				073C19CE231E91FB004B5B9F /* AppleAndOrange.swift */,
+				073C19D0231E9549004B5B9F /* Kangaroo.swift */,
+				073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */,
+				073C19D4231EA4B1004B5B9F /* SockMerchant.swift */,
 			);
 			path = Hackerrank;
 			sourceTree = "<group>";
@@ -156,14 +177,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */,
+				073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */,
 				073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */,
 				073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
 				073C19BD231E6056004B5B9F /* main.swift in Sources */,
+				073C19CF231E91FB004B5B9F /* AppleAndOrange.swift in Sources */,
 				384A22E422B3EE870047D20C /* anagramExam.cpp in Sources */,
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
+				073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */,
 				073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */,
+				073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */,
+				073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */,
+				073C19D1231E9549004B5B9F /* Kangaroo.swift in Sources */,
 				073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */,
+				073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */,
 				073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
