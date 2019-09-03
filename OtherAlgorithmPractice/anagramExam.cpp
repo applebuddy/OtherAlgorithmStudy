@@ -6,17 +6,17 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-#include <stdio.h>
-#include <string>
-#include <algorithm>
-using namespace std;
-int main(){
-    string s="";
-    string s1="amary";
-    string s2="armya";
-    sort(s1.begin(),s1.end());
-    sort(s2.begin(),s2.end());
-    if(s1==s2) printf("TRUE\n");
-    else printf("FALSE\n");
-    return 0;
-}
+//#include <stdio.h>
+//#include <string>
+//#include <algorithm>
+//using namespace std;
+//int main(){
+//    string s="";
+//    string s1="amary";
+//    string s2="armya";
+//    sort(s1.begin(),s1.end());
+//    sort(s2.begin(),s2.end());
+//    if(s1==s2) printf("TRUE\n");
+//    else printf("FALSE\n");
+//    return 0;
+//}

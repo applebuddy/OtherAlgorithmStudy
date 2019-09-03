@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19B9231E5FD6004B5B9F /* Staircase.swift */; };
+		073C19BD231E6056004B5B9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19BC231E6056004B5B9F /* main.swift */; };
+		073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */; };
+		073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */; };
+		073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C4231E6AAA004B5B9F /* TimeConversion.swift */; };
+		073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C6231E7755004B5B9F /* GameOfStones.swift */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -26,6 +32,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		073C19B9231E5FD6004B5B9F /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
+		073C19BC231E6056004B5B9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mini-MaxSum.swift"; sourceTree = "<group>"; };
+		073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandies.swift; sourceTree = "<group>"; };
+		073C19C4231E6AAA004B5B9F /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
+		073C19C6231E7755004B5B9F /* GameOfStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfStones.swift; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -44,6 +56,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		073C19BB231E5FDF004B5B9F /* Hackerrank */ = {
+			isa = PBXGroup;
+			children = (
+				073C19BC231E6056004B5B9F /* main.swift */,
+				073C19B9231E5FD6004B5B9F /* Staircase.swift */,
+				073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */,
+				073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */,
+				073C19C6231E7755004B5B9F /* GameOfStones.swift */,
+				073C19C4231E6AAA004B5B9F /* TimeConversion.swift */,
+			);
+			path = Hackerrank;
+			sourceTree = "<group>";
+		};
 		384A22C922B3EE460047D20C = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +92,7 @@
 				384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */,
 				384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */,
 				384A22E322B3EE870047D20C /* anagramExam.cpp */,
+				073C19BB231E5FDF004B5B9F /* Hackerrank */,
 			);
 			path = OtherAlgorithmPractice;
 			sourceTree = "<group>";
@@ -130,9 +156,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */,
+				073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */,
+				073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
+				073C19BD231E6056004B5B9F /* main.swift in Sources */,
 				384A22E422B3EE870047D20C /* anagramExam.cpp in Sources */,
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
+				073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */,
+				073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */,
+				073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
