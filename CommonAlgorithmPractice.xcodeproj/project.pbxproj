@@ -23,6 +23,10 @@
 		074439DC231FCDD300967116 /* JumpingOnTheClouds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */; };
 		074439DE231FD44900967116 /* RepeatedString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439DD231FD44900967116 /* RepeatedString.cpp */; };
 		074439E2231FD58500967116 /* CountingValleys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439E1231FD58500967116 /* CountingValleys.cpp */; };
+		074439E4231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439E3231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp */; };
+		074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074439E5231FE0FB00967116 /* ArraysLeftRotation.swift */; };
+		074439E9231FF2ED00967116 /* (F)New Year Chaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074439E8231FF2ED00967116 /* (F)New Year Chaos.swift */; };
+		074439EE2320295D00967116 /* NewYearChaos_버블정렬유무.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439ED2320295D00967116 /* NewYearChaos_버블정렬유무.cpp */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -58,6 +62,10 @@
 		074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingOnTheClouds.cpp; sourceTree = "<group>"; };
 		074439DD231FD44900967116 /* RepeatedString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatedString.cpp; sourceTree = "<group>"; };
 		074439E1231FD58500967116 /* CountingValleys.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountingValleys.cpp; sourceTree = "<group>"; };
+		074439E3231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2D Array Hour Glass_모래시계합.cpp"; sourceTree = "<group>"; };
+		074439E5231FE0FB00967116 /* ArraysLeftRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysLeftRotation.swift; sourceTree = "<group>"; };
+		074439E8231FF2ED00967116 /* (F)New Year Chaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(F)New Year Chaos.swift"; sourceTree = "<group>"; };
+		074439ED2320295D00967116 /* NewYearChaos_버블정렬유무.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "NewYearChaos_버블정렬유무.cpp"; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -101,6 +109,7 @@
 				073C19D0231E9549004B5B9F /* Kangaroo.swift */,
 				073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */,
 				073C19D4231EA4B1004B5B9F /* SockMerchant.swift */,
+				074439E7231FE2F100967116 /* Array */,
 			);
 			path = "Swift Solving";
 			sourceTree = "<group>";
@@ -111,8 +120,27 @@
 				074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */,
 				074439DD231FD44900967116 /* RepeatedString.cpp */,
 				074439E1231FD58500967116 /* CountingValleys.cpp */,
+				074439EC2320293E00967116 /* Array */,
 			);
 			path = "C++ Solving";
+			sourceTree = "<group>";
+		};
+		074439E7231FE2F100967116 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				074439E5231FE0FB00967116 /* ArraysLeftRotation.swift */,
+				074439E8231FF2ED00967116 /* (F)New Year Chaos.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		074439EC2320293E00967116 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				074439E3231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp */,
+				074439ED2320295D00967116 /* NewYearChaos_버블정렬유무.cpp */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 		384A22C922B3EE460047D20C = {
@@ -205,8 +233,10 @@
 				073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */,
 				073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */,
 				073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */,
+				074439EE2320295D00967116 /* NewYearChaos_버블정렬유무.cpp in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
 				073C19BD231E6056004B5B9F /* main.swift in Sources */,
+				074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */,
 				073C19CF231E91FB004B5B9F /* AppleAndOrange.swift in Sources */,
 				384A22E422B3EE870047D20C /* anagramExam.cpp in Sources */,
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
@@ -214,12 +244,14 @@
 				073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */,
 				073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */,
 				074439DE231FD44900967116 /* RepeatedString.cpp in Sources */,
+				074439E4231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp in Sources */,
 				073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */,
 				074439DC231FCDD300967116 /* JumpingOnTheClouds.cpp in Sources */,
 				074439E2231FD58500967116 /* CountingValleys.cpp in Sources */,
 				073C19D1231E9549004B5B9F /* Kangaroo.swift in Sources */,
 				073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */,
 				073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */,
+				074439E9231FF2ED00967116 /* (F)New Year Chaos.swift in Sources */,
 				073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
