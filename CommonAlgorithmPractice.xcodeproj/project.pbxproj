@@ -20,6 +20,9 @@
 		073C19D1231E9549004B5B9F /* Kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19D0231E9549004B5B9F /* Kangaroo.swift */; };
 		073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */; };
 		073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19D4231EA4B1004B5B9F /* SockMerchant.swift */; };
+		074439DC231FCDD300967116 /* JumpingOnTheClouds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */; };
+		074439DE231FD44900967116 /* RepeatedString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439DD231FD44900967116 /* RepeatedString.cpp */; };
+		074439E2231FD58500967116 /* CountingValleys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439E1231FD58500967116 /* CountingValleys.cpp */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -52,6 +55,9 @@
 		073C19D0231E9549004B5B9F /* Kangaroo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kangaroo.swift; sourceTree = "<group>"; };
 		073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenToSets.swift; sourceTree = "<group>"; };
 		073C19D4231EA4B1004B5B9F /* SockMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockMerchant.swift; sourceTree = "<group>"; };
+		074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingOnTheClouds.cpp; sourceTree = "<group>"; };
+		074439DD231FD44900967116 /* RepeatedString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatedString.cpp; sourceTree = "<group>"; };
+		074439E1231FD58500967116 /* CountingValleys.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountingValleys.cpp; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -73,6 +79,15 @@
 		073C19BB231E5FDF004B5B9F /* Hackerrank */ = {
 			isa = PBXGroup;
 			children = (
+				074439E0231FD4B900967116 /* C++ Solving */,
+				074439DF231FD4AB00967116 /* Swift Solving */,
+			);
+			path = Hackerrank;
+			sourceTree = "<group>";
+		};
+		074439DF231FD4AB00967116 /* Swift Solving */ = {
+			isa = PBXGroup;
+			children = (
 				073C19BC231E6056004B5B9F /* main.swift */,
 				073C19B9231E5FD6004B5B9F /* Staircase.swift */,
 				073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */,
@@ -87,7 +102,17 @@
 				073C19D2231E9B2F004B5B9F /* BetweenToSets.swift */,
 				073C19D4231EA4B1004B5B9F /* SockMerchant.swift */,
 			);
-			path = Hackerrank;
+			path = "Swift Solving";
+			sourceTree = "<group>";
+		};
+		074439E0231FD4B900967116 /* C++ Solving */ = {
+			isa = PBXGroup;
+			children = (
+				074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */,
+				074439DD231FD44900967116 /* RepeatedString.cpp */,
+				074439E1231FD58500967116 /* CountingValleys.cpp */,
+			);
+			path = "C++ Solving";
 			sourceTree = "<group>";
 		};
 		384A22C922B3EE460047D20C = {
@@ -188,7 +213,10 @@
 				073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */,
 				073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */,
 				073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */,
+				074439DE231FD44900967116 /* RepeatedString.cpp in Sources */,
 				073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */,
+				074439DC231FCDD300967116 /* JumpingOnTheClouds.cpp in Sources */,
+				074439E2231FD58500967116 /* CountingValleys.cpp in Sources */,
 				073C19D1231E9549004B5B9F /* Kangaroo.swift in Sources */,
 				073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */,
 				073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */,
