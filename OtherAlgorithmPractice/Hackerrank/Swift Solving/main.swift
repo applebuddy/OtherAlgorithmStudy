@@ -18,3 +18,4 @@ import Foundation
 // print(getTotalX(a: [1], b: [72, 48]))
 //
 // print(sockMerchant(n: 5, ar: [1, 1, 2, 2, 3]))
+print(makeAnagram(a: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa", b: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"))

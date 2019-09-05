@@ -10,6 +10,11 @@
 		072A1354232115270003F7EC /* MinimumSwaps2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A1353232115270003F7EC /* MinimumSwaps2.swift */; };
 		072A135723211A7E0003F7EC /* BubbleSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A135623211A7E0003F7EC /* BubbleSorting.swift */; };
 		072A135A23211D060003F7EC /* BubbleSorting_C++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A135923211D060003F7EC /* BubbleSorting_C++.cpp */; };
+		072A135C232128BF0003F7EC /* MeximumToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A135B232128BF0003F7EC /* MeximumToys.swift */; };
+		072A135E232129030003F7EC /* MeximumToys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A135D232129030003F7EC /* MeximumToys.cpp */; };
+		072A136023212E4E0003F7EC /* Sorting: Comparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A135F23212E4E0003F7EC /* Sorting: Comparator.cpp */; };
+		072A136323213C750003F7EC /* Strings: Making Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A136223213C750003F7EC /* Strings: Making Anagrams.cpp */; };
+		072A136523213D0B0003F7EC /* Strings- Making Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A136423213D0B0003F7EC /* Strings- Making Anagrams.swift */; };
 		073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19B9231E5FD6004B5B9F /* Staircase.swift */; };
 		073C19BD231E6056004B5B9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19BC231E6056004B5B9F /* main.swift */; };
 		073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */; };
@@ -52,6 +57,11 @@
 		072A1353232115270003F7EC /* MinimumSwaps2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSwaps2.swift; sourceTree = "<group>"; };
 		072A135623211A7E0003F7EC /* BubbleSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSorting.swift; sourceTree = "<group>"; };
 		072A135923211D060003F7EC /* BubbleSorting_C++.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BubbleSorting_C++.cpp"; sourceTree = "<group>"; };
+		072A135B232128BF0003F7EC /* MeximumToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeximumToys.swift; sourceTree = "<group>"; };
+		072A135D232129030003F7EC /* MeximumToys.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MeximumToys.cpp; sourceTree = "<group>"; };
+		072A135F23212E4E0003F7EC /* Sorting: Comparator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sorting: Comparator.cpp"; sourceTree = "<group>"; };
+		072A136223213C750003F7EC /* Strings: Making Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Strings: Making Anagrams.cpp"; sourceTree = "<group>"; };
+		072A136423213D0B0003F7EC /* Strings- Making Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings- Making Anagrams.swift"; sourceTree = "<group>"; };
 		073C19B9231E5FD6004B5B9F /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
 		073C19BC231E6056004B5B9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mini-MaxSum.swift"; sourceTree = "<group>"; };
@@ -94,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				072A135623211A7E0003F7EC /* BubbleSorting.swift */,
+				072A135B232128BF0003F7EC /* MeximumToys.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -102,8 +113,19 @@
 			isa = PBXGroup;
 			children = (
 				072A135923211D060003F7EC /* BubbleSorting_C++.cpp */,
+				072A135D232129030003F7EC /* MeximumToys.cpp */,
+				072A135F23212E4E0003F7EC /* Sorting: Comparator.cpp */,
 			);
 			path = Sorting;
+			sourceTree = "<group>";
+		};
+		072A136123213C650003F7EC /* String */ = {
+			isa = PBXGroup;
+			children = (
+				072A136223213C750003F7EC /* Strings: Making Anagrams.cpp */,
+				072A136423213D0B0003F7EC /* Strings- Making Anagrams.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		073C19BB231E5FDF004B5B9F /* Hackerrank */ = {
@@ -143,6 +165,7 @@
 				074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */,
 				074439DD231FD44900967116 /* RepeatedString.cpp */,
 				074439E1231FD58500967116 /* CountingValleys.cpp */,
+				072A136123213C650003F7EC /* String */,
 				072A135823211CF60003F7EC /* Sorting */,
 				074439EC2320293E00967116 /* Array */,
 			);
@@ -257,10 +280,12 @@
 				072A135723211A7E0003F7EC /* BubbleSorting.swift in Sources */,
 				384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */,
 				073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */,
+				072A135E232129030003F7EC /* MeximumToys.cpp in Sources */,
 				073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */,
 				073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */,
 				074439EE2320295D00967116 /* NewYearChaos_버블정렬유무.cpp in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
+				072A136023212E4E0003F7EC /* Sorting: Comparator.cpp in Sources */,
 				073C19BD231E6056004B5B9F /* main.swift in Sources */,
 				072A135A23211D060003F7EC /* BubbleSorting_C++.cpp in Sources */,
 				074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */,
@@ -269,14 +294,17 @@
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
 				073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */,
 				073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */,
+				072A136523213D0B0003F7EC /* Strings- Making Anagrams.swift in Sources */,
 				073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */,
 				074439DE231FD44900967116 /* RepeatedString.cpp in Sources */,
+				072A135C232128BF0003F7EC /* MeximumToys.swift in Sources */,
 				074439E4231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp in Sources */,
 				073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */,
 				072A1354232115270003F7EC /* MinimumSwaps2.swift in Sources */,
 				074439DC231FCDD300967116 /* JumpingOnTheClouds.cpp in Sources */,
 				074439E2231FD58500967116 /* CountingValleys.cpp in Sources */,
 				073C19D1231E9549004B5B9F /* Kangaroo.swift in Sources */,
+				072A136323213C750003F7EC /* Strings: Making Anagrams.cpp in Sources */,
 				073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */,
 				073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */,
 				074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */,
