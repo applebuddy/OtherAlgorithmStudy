@@ -40,6 +40,7 @@
 		074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074439E5231FE0FB00967116 /* ArraysLeftRotation.swift */; };
 		074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074439E8231FF2ED00967116 /* New Year Chaos.swift */; };
 		074439EE2320295D00967116 /* New Year Chaos_버블정렬문제.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439ED2320295D00967116 /* New Year Chaos_버블정렬문제.cpp */; };
+		074F0CEE2322DF540055E966 /* Sherlock And Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074F0CED2322DF540055E966 /* Sherlock And Anagrams.swift */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -92,6 +93,7 @@
 		074439E5231FE0FB00967116 /* ArraysLeftRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysLeftRotation.swift; sourceTree = "<group>"; };
 		074439E8231FF2ED00967116 /* New Year Chaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New Year Chaos.swift"; sourceTree = "<group>"; };
 		074439ED2320295D00967116 /* New Year Chaos_버블정렬문제.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "New Year Chaos_버블정렬문제.cpp"; sourceTree = "<group>"; };
+		074F0CED2322DF540055E966 /* Sherlock And Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sherlock And Anagrams.swift"; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				072A137123226C190003F7EC /* Hash Tables: Ransom Note.cpp */,
 				072A1373232275BD0003F7EC /* Two Strings.cpp */,
+				074F0CED2322DF540055E966 /* Sherlock And Anagrams.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				072A136723214D1B0003F7EC /* Alternating Characters.swift in Sources */,
 				074439DE231FD44900967116 /* RepeatedString.cpp in Sources */,
 				072A135C232128BF0003F7EC /* MeximumToys.swift in Sources */,
+				074F0CEE2322DF540055E966 /* Sherlock And Anagrams.swift in Sources */,
 				074439E4231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp in Sources */,
 				073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */,
 				072A1354232115270003F7EC /* MinimumSwaps2.swift in Sources */,
