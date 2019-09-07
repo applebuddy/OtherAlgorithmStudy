@@ -21,7 +21,7 @@
 		072A137223226C190003F7EC /* Hash Tables: Ransom Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A137123226C190003F7EC /* Hash Tables: Ransom Note.cpp */; };
 		072A1374232275BD0003F7EC /* Two Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A1373232275BD0003F7EC /* Two Strings.cpp */; };
 		073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19B9231E5FD6004B5B9F /* Staircase.swift */; };
-		073C19BD231E6056004B5B9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19BC231E6056004B5B9F /* main.swift */; };
+		073C19BD231E6056004B5B9F /* mainc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19BC231E6056004B5B9F /* mainc.swift */; };
 		073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */; };
 		073C19C3231E69D7004B5B9F /* BirthdayCakeCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */; };
 		073C19C5231E6AAA004B5B9F /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C19C4231E6AAA004B5B9F /* TimeConversion.swift */; };
@@ -49,6 +49,7 @@
 		0764108F2323CDFA00A3D2A6 /* Greedy Florist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0764108E2323CDFA00A3D2A6 /* Greedy Florist.cpp */; };
 		076410942323E8AE00A3D2A6 /* What Flavors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410932323E8AE00A3D2A6 /* What Flavors.cpp */; };
 		076410962323E8F900A3D2A6 /* What flavors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076410952323E8F900A3D2A6 /* What flavors.swift */; };
+		076410992323F8AF00A3D2A6 /* isBalanced.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410982323F8AF00A3D2A6 /* isBalanced.cpp */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -82,7 +83,7 @@
 		072A137123226C190003F7EC /* Hash Tables: Ransom Note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Hash Tables: Ransom Note.cpp"; sourceTree = "<group>"; };
 		072A1373232275BD0003F7EC /* Two Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Two Strings.cpp"; sourceTree = "<group>"; };
 		073C19B9231E5FD6004B5B9F /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
-		073C19BC231E6056004B5B9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		073C19BC231E6056004B5B9F /* mainc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainc.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mini-MaxSum.swift"; sourceTree = "<group>"; };
 		073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandies.swift; sourceTree = "<group>"; };
 		073C19C4231E6AAA004B5B9F /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		0764108E2323CDFA00A3D2A6 /* Greedy Florist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Greedy Florist.cpp"; sourceTree = "<group>"; };
 		076410932323E8AE00A3D2A6 /* What Flavors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "What Flavors.cpp"; sourceTree = "<group>"; };
 		076410952323E8F900A3D2A6 /* What flavors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "What flavors.swift"; sourceTree = "<group>"; };
+		076410982323F8AF00A3D2A6 /* isBalanced.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isBalanced.cpp; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -165,7 +167,7 @@
 		073C19BB231E5FDF004B5B9F /* Hackerrank */ = {
 			isa = PBXGroup;
 			children = (
-				073C19BC231E6056004B5B9F /* main.swift */,
+				073C19BC231E6056004B5B9F /* mainc.swift */,
 				073C19B9231E5FD6004B5B9F /* Staircase.swift */,
 				073C19C0231E677E004B5B9F /* Mini-MaxSum.swift */,
 				073C19C2231E69D7004B5B9F /* BirthdayCakeCandies.swift */,
@@ -189,6 +191,7 @@
 				074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */,
 				074439DD231FD44900967116 /* RepeatedString.cpp */,
 				074439E1231FD58500967116 /* CountingValleys.cpp */,
+				076410972323F89C00A3D2A6 /* Stack */,
 				076410902323D69300A3D2A6 /* Search */,
 				076410832323B3E600A3D2A6 /* Greedy */,
 				072A137023226C0A0003F7EC /* HashTable */,
@@ -231,6 +234,14 @@
 				076410952323E8F900A3D2A6 /* What flavors.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		076410972323F89C00A3D2A6 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				076410982323F8AF00A3D2A6 /* isBalanced.cpp */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 		384A22C922B3EE460047D20C = {
@@ -319,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076410992323F8AF00A3D2A6 /* isBalanced.cpp in Sources */,
 				072A136923214E890003F7EC /* Alternating Characters.cpp in Sources */,
 				072A135723211A7E0003F7EC /* BubbleSorting.swift in Sources */,
 				384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */,
@@ -332,7 +344,7 @@
 				074439EE2320295D00967116 /* New Year Chaos_버블정렬문제.cpp in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
 				072A136023212E4E0003F7EC /* Sorting: Comparator.cpp in Sources */,
-				073C19BD231E6056004B5B9F /* main.swift in Sources */,
+				073C19BD231E6056004B5B9F /* mainc.swift in Sources */,
 				072A136B232157020003F7EC /* Sherlock and the Valid String.cpp in Sources */,
 				072A135A23211D060003F7EC /* BubbleSorting.cpp in Sources */,
 				074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */,
