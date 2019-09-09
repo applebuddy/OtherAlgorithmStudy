@@ -41,6 +41,7 @@
 		074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074439E8231FF2ED00967116 /* New Year Chaos.swift */; };
 		074439EE2320295D00967116 /* New Year Chaos_버블정렬문제.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074439ED2320295D00967116 /* New Year Chaos_버블정렬문제.cpp */; };
 		074F0CEE2322DF540055E966 /* Sherlock And Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074F0CED2322DF540055E966 /* Sherlock And Anagrams.swift */; };
+		075D580923254DD6004CBD60 /* sstream Exam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 075D580823254DD6004CBD60 /* sstream Exam.cpp */; };
 		076410852323B41000A3D2A6 /* minimum Absolute Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076410842323B41000A3D2A6 /* minimum Absolute Difference.swift */; };
 		076410872323B62700A3D2A6 /* minimum Absolute Difference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410862323B62700A3D2A6 /* minimum Absolute Difference.cpp */; };
 		076410892323B88400A3D2A6 /* luck Balance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410882323B88400A3D2A6 /* luck Balance.cpp */; };
@@ -50,6 +51,12 @@
 		076410942323E8AE00A3D2A6 /* What Flavors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410932323E8AE00A3D2A6 /* What Flavors.cpp */; };
 		076410962323E8F900A3D2A6 /* What flavors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076410952323E8F900A3D2A6 /* What flavors.swift */; };
 		076410992323F8AF00A3D2A6 /* isBalanced.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410982323F8AF00A3D2A6 /* isBalanced.cpp */; };
+		0781AADD232654F300D8BC74 /* (N)Queue With Two Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AADC232654F300D8BC74 /* (N)Queue With Two Stack.cpp */; };
+		0781AAE023265B3E00D8BC74 /* Flipping Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AADF23265B3E00D8BC74 /* Flipping Bits.cpp */; };
+		0781AAE22326631300D8BC74 /* FlippingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE12326631300D8BC74 /* FlippingBits.swift */; };
+		0781AAE42326701A00D8BC74 /* LargestRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE32326701A00D8BC74 /* LargestRectangle.swift */; };
+		0781AAE6232681B600D8BC74 /* LargestRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE5232681B600D8BC74 /* LargestRectangle.cpp */; };
+		0781AAE8232683C300D8BC74 /* StackExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE7232683C300D8BC74 /* StackExam.swift */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -103,6 +110,7 @@
 		074439E8231FF2ED00967116 /* New Year Chaos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New Year Chaos.swift"; sourceTree = "<group>"; };
 		074439ED2320295D00967116 /* New Year Chaos_버블정렬문제.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "New Year Chaos_버블정렬문제.cpp"; sourceTree = "<group>"; };
 		074F0CED2322DF540055E966 /* Sherlock And Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sherlock And Anagrams.swift"; sourceTree = "<group>"; };
+		075D580823254DD6004CBD60 /* sstream Exam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sstream Exam.cpp"; sourceTree = "<group>"; };
 		076410842323B41000A3D2A6 /* minimum Absolute Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "minimum Absolute Difference.swift"; sourceTree = "<group>"; };
 		076410862323B62700A3D2A6 /* minimum Absolute Difference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimum Absolute Difference.cpp"; sourceTree = "<group>"; };
 		076410882323B88400A3D2A6 /* luck Balance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "luck Balance.cpp"; sourceTree = "<group>"; };
@@ -112,6 +120,12 @@
 		076410932323E8AE00A3D2A6 /* What Flavors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "What Flavors.cpp"; sourceTree = "<group>"; };
 		076410952323E8F900A3D2A6 /* What flavors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "What flavors.swift"; sourceTree = "<group>"; };
 		076410982323F8AF00A3D2A6 /* isBalanced.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isBalanced.cpp; sourceTree = "<group>"; };
+		0781AADC232654F300D8BC74 /* (N)Queue With Two Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "(N)Queue With Two Stack.cpp"; sourceTree = "<group>"; };
+		0781AADF23265B3E00D8BC74 /* Flipping Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flipping Bits.cpp"; sourceTree = "<group>"; };
+		0781AAE12326631300D8BC74 /* FlippingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingBits.swift; sourceTree = "<group>"; };
+		0781AAE32326701A00D8BC74 /* LargestRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangle.swift; sourceTree = "<group>"; };
+		0781AAE5232681B600D8BC74 /* LargestRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangle.cpp; sourceTree = "<group>"; };
+		0781AAE7232683C300D8BC74 /* StackExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExam.swift; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -191,6 +205,7 @@
 				074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */,
 				074439DD231FD44900967116 /* RepeatedString.cpp */,
 				074439E1231FD58500967116 /* CountingValleys.cpp */,
+				0781AADE23265B3200D8BC74 /* Bits */,
 				076410972323F89C00A3D2A6 /* Stack */,
 				076410902323D69300A3D2A6 /* Search */,
 				076410832323B3E600A3D2A6 /* Greedy */,
@@ -240,8 +255,20 @@
 			isa = PBXGroup;
 			children = (
 				076410982323F8AF00A3D2A6 /* isBalanced.cpp */,
+				0781AAE32326701A00D8BC74 /* LargestRectangle.swift */,
+				0781AAE5232681B600D8BC74 /* LargestRectangle.cpp */,
+				0781AADC232654F300D8BC74 /* (N)Queue With Two Stack.cpp */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		0781AADE23265B3200D8BC74 /* Bits */ = {
+			isa = PBXGroup;
+			children = (
+				0781AADF23265B3E00D8BC74 /* Flipping Bits.cpp */,
+				0781AAE12326631300D8BC74 /* FlippingBits.swift */,
+			);
+			path = Bits;
 			sourceTree = "<group>";
 		};
 		384A22C922B3EE460047D20C = {
@@ -267,6 +294,8 @@
 				384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */,
 				384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */,
 				384A22E322B3EE870047D20C /* anagramExam.cpp */,
+				075D580823254DD6004CBD60 /* sstream Exam.cpp */,
+				0781AAE7232683C300D8BC74 /* StackExam.swift */,
 				073C19BB231E5FDF004B5B9F /* Hackerrank */,
 			);
 			path = OtherAlgorithmPractice;
@@ -330,24 +359,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0781AAE023265B3E00D8BC74 /* Flipping Bits.cpp in Sources */,
 				076410992323F8AF00A3D2A6 /* isBalanced.cpp in Sources */,
 				072A136923214E890003F7EC /* Alternating Characters.cpp in Sources */,
 				072A135723211A7E0003F7EC /* BubbleSorting.swift in Sources */,
 				384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */,
+				0781AADD232654F300D8BC74 /* (N)Queue With Two Stack.cpp in Sources */,
 				076410892323B88400A3D2A6 /* luck Balance.cpp in Sources */,
 				073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */,
 				076410852323B41000A3D2A6 /* minimum Absolute Difference.swift in Sources */,
 				072A135E232129030003F7EC /* MeximumToys.cpp in Sources */,
 				076410872323B62700A3D2A6 /* minimum Absolute Difference.cpp in Sources */,
 				073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */,
+				0781AAE42326701A00D8BC74 /* LargestRectangle.swift in Sources */,
 				073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */,
 				074439EE2320295D00967116 /* New Year Chaos_버블정렬문제.cpp in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
 				072A136023212E4E0003F7EC /* Sorting: Comparator.cpp in Sources */,
+				0781AAE8232683C300D8BC74 /* StackExam.swift in Sources */,
+				0781AAE22326631300D8BC74 /* FlippingBits.swift in Sources */,
 				073C19BD231E6056004B5B9F /* mainc.swift in Sources */,
 				072A136B232157020003F7EC /* Sherlock and the Valid String.cpp in Sources */,
 				072A135A23211D060003F7EC /* BubbleSorting.cpp in Sources */,
 				074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */,
+				0781AAE6232681B600D8BC74 /* LargestRectangle.cpp in Sources */,
 				073C19CF231E91FB004B5B9F /* AppleAndOrange.swift in Sources */,
 				384A22E422B3EE870047D20C /* anagramExam.cpp in Sources */,
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
@@ -373,6 +408,7 @@
 				073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */,
 				0764108B2323BFA800A3D2A6 /* luck Balance.swift in Sources */,
 				072A1374232275BD0003F7EC /* Two Strings.cpp in Sources */,
+				075D580923254DD6004CBD60 /* sstream Exam.cpp in Sources */,
 				074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */,
 				0764108F2323CDFA00A3D2A6 /* Greedy Florist.cpp in Sources */,
 				076410942323E8AE00A3D2A6 /* What Flavors.cpp in Sources */,
