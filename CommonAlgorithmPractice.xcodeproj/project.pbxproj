@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		072A1354232115270003F7EC /* MinimumSwaps2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A1353232115270003F7EC /* MinimumSwaps2.swift */; };
+		072A1354232115270003F7EC /* (pT)Minimum Swaps2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A1353232115270003F7EC /* (pT)Minimum Swaps2.swift */; };
 		072A135723211A7E0003F7EC /* BubbleSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A135623211A7E0003F7EC /* BubbleSorting.swift */; };
 		072A135A23211D060003F7EC /* BubbleSorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072A135923211D060003F7EC /* BubbleSorting.cpp */; };
 		072A135C232128BF0003F7EC /* MeximumToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A135B232128BF0003F7EC /* MeximumToys.swift */; };
@@ -59,6 +59,11 @@
 		0781AAE8232683C300D8BC74 /* StackExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE7232683C300D8BC74 /* StackExam.swift */; };
 		0781AAEB232685E400D8BC74 /* Max Array Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAEA232685E400D8BC74 /* Max Array Sum.cpp */; };
 		0781AAED2326964D00D8BC74 /* Max Array Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAEC2326964D00D8BC74 /* Max Array Sum.swift */; };
+		0781AAEF23269AAA00D8BC74 /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAEE23269AAA00D8BC74 /* Pairs.swift */; };
+		0781AAF123269B5F00D8BC74 /* Pairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAF023269B5F00D8BC74 /* Pairs.cpp */; };
+		0781AAF323269DE700D8BC74 /* Minimum Swaps2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAF223269DE700D8BC74 /* Minimum Swaps2.cpp */; };
+		0781AAF72326CFD400D8BC74 /* Max Min.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAF62326CFD400D8BC74 /* Max Min.cpp */; };
+		0781AAF92326D2D000D8BC74 /* Max Min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAF82326D2D000D8BC74 /* Max Min.swift */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -78,7 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		072A1353232115270003F7EC /* MinimumSwaps2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSwaps2.swift; sourceTree = "<group>"; };
+		072A1353232115270003F7EC /* (pT)Minimum Swaps2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(pT)Minimum Swaps2.swift"; sourceTree = "<group>"; };
 		072A135623211A7E0003F7EC /* BubbleSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSorting.swift; sourceTree = "<group>"; };
 		072A135923211D060003F7EC /* BubbleSorting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSorting.cpp; sourceTree = "<group>"; };
 		072A135B232128BF0003F7EC /* MeximumToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeximumToys.swift; sourceTree = "<group>"; };
@@ -130,6 +135,11 @@
 		0781AAE7232683C300D8BC74 /* StackExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExam.swift; sourceTree = "<group>"; };
 		0781AAEA232685E400D8BC74 /* Max Array Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Max Array Sum.cpp"; sourceTree = "<group>"; };
 		0781AAEC2326964D00D8BC74 /* Max Array Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Array Sum.swift"; sourceTree = "<group>"; };
+		0781AAEE23269AAA00D8BC74 /* Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
+		0781AAF023269B5F00D8BC74 /* Pairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pairs.cpp; sourceTree = "<group>"; };
+		0781AAF223269DE700D8BC74 /* Minimum Swaps2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum Swaps2.cpp"; sourceTree = "<group>"; };
+		0781AAF62326CFD400D8BC74 /* Max Min.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Max Min.cpp"; sourceTree = "<group>"; };
+		0781AAF82326D2D000D8BC74 /* Max Min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Min.swift"; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -227,9 +237,10 @@
 			children = (
 				074439E3231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp */,
 				074439E5231FE0FB00967116 /* ArraysLeftRotation.swift */,
-				072A1353232115270003F7EC /* MinimumSwaps2.swift */,
 				074439E8231FF2ED00967116 /* New Year Chaos.swift */,
 				074439ED2320295D00967116 /* New Year Chaos_버블정렬문제.cpp */,
+				0781AAF223269DE700D8BC74 /* Minimum Swaps2.cpp */,
+				072A1353232115270003F7EC /* (pT)Minimum Swaps2.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -243,6 +254,8 @@
 				076410882323B88400A3D2A6 /* luck Balance.cpp */,
 				0764108A2323BFA800A3D2A6 /* luck Balance.swift */,
 				076410862323B62700A3D2A6 /* minimum Absolute Difference.cpp */,
+				0781AAF62326CFD400D8BC74 /* Max Min.cpp */,
+				0781AAF82326D2D000D8BC74 /* Max Min.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -252,6 +265,8 @@
 			children = (
 				076410932323E8AE00A3D2A6 /* What Flavors.cpp */,
 				076410952323E8F900A3D2A6 /* What flavors.swift */,
+				0781AAEE23269AAA00D8BC74 /* Pairs.swift */,
+				0781AAF023269B5F00D8BC74 /* Pairs.cpp */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -389,6 +404,7 @@
 				0781AAE42326701A00D8BC74 /* LargestRectangle.swift in Sources */,
 				073C19C7231E7755004B5B9F /* GameOfStones.swift in Sources */,
 				074439EE2320295D00967116 /* New Year Chaos_버블정렬문제.cpp in Sources */,
+				0781AAEF23269AAA00D8BC74 /* Pairs.swift in Sources */,
 				384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */,
 				072A136023212E4E0003F7EC /* Sorting: Comparator.cpp in Sources */,
 				0781AAE8232683C300D8BC74 /* StackExam.swift in Sources */,
@@ -399,6 +415,7 @@
 				074439E6231FE0FB00967116 /* ArraysLeftRotation.swift in Sources */,
 				0781AAE6232681B600D8BC74 /* LargestRectangle.cpp in Sources */,
 				073C19CF231E91FB004B5B9F /* AppleAndOrange.swift in Sources */,
+				0781AAF92326D2D000D8BC74 /* Max Min.swift in Sources */,
 				384A22E422B3EE870047D20C /* anagramExam.cpp in Sources */,
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
 				073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */,
@@ -406,13 +423,14 @@
 				076410962323E8F900A3D2A6 /* What flavors.swift in Sources */,
 				072A136523213D0B0003F7EC /* Strings- Making Anagrams.swift in Sources */,
 				073C19D3231E9B2F004B5B9F /* BetweenToSets.swift in Sources */,
+				0781AAF72326CFD400D8BC74 /* Max Min.cpp in Sources */,
 				072A136723214D1B0003F7EC /* Alternating Characters.swift in Sources */,
 				074439DE231FD44900967116 /* RepeatedString.cpp in Sources */,
 				072A135C232128BF0003F7EC /* MeximumToys.swift in Sources */,
 				074F0CEE2322DF540055E966 /* Sherlock And Anagrams.swift in Sources */,
 				074439E4231FDA9400967116 /* 2D Array Hour Glass_모래시계합.cpp in Sources */,
 				073C19CD231E8AD8004B5B9F /* QueueExam.swift in Sources */,
-				072A1354232115270003F7EC /* MinimumSwaps2.swift in Sources */,
+				072A1354232115270003F7EC /* (pT)Minimum Swaps2.swift in Sources */,
 				074439DC231FCDD300967116 /* JumpingOnTheClouds.cpp in Sources */,
 				074439E2231FD58500967116 /* CountingValleys.cpp in Sources */,
 				0764108D2323C8DF00A3D2A6 /* Greedy Florist.swift in Sources */,
@@ -426,9 +444,11 @@
 				072A1374232275BD0003F7EC /* Two Strings.cpp in Sources */,
 				075D580923254DD6004CBD60 /* sstream Exam.cpp in Sources */,
 				074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */,
+				0781AAF323269DE700D8BC74 /* Minimum Swaps2.cpp in Sources */,
 				0764108F2323CDFA00A3D2A6 /* Greedy Florist.cpp in Sources */,
 				076410942323E8AE00A3D2A6 /* What Flavors.cpp in Sources */,
 				073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */,
+				0781AAF123269B5F00D8BC74 /* Pairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

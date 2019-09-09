@@ -18,33 +18,33 @@
 //
 //    9
 
-#include <vector>
-#include <iostream>
-
-using namespace std;
-
-// Complete the largestRectangle function below.
-long largestRectangle(vector<int> h) {
-    int Ans = 0;
-    for(int i=0; i<h.size(); i++) {
-        int index = 1;
-        Ans = max(Ans, index * h[i]);
-        for(int j=i-1; j>=0; j--) {
-            if(h[i] > h[j]) { break; }
-            index++;
-            Ans = max(Ans, index * h[i]);
-        }
-        
-        if(i+1 > h.size()) { continue; }
-        for(int j=i+1; j<h.size(); j++) {
-            if(h[i] > h[j]) { break; }
-            index++;
-            Ans = max(Ans, index * h[i]);
-        }
-    }
-    return Ans;
-}
-
-int main() {
-    printf("%ld",largestRectangle({6320, 6020, 6098, 1332, 7263, 672, 9472, 2838, 3401, 9494}));
-}
+//#include <vector>
+//#include <iostream>
+//
+//using namespace std;
+//
+//// Complete the largestRectangle function below.
+//long largestRectangle(vector<int> h) {
+//    int Ans = 0;
+//    for(int i=0; i<h.size(); i++) {
+//        int index = 1;
+//        Ans = max(Ans, index * h[i]);
+//        for(int j=i-1; j>=0; j--) {
+//            if(h[i] > h[j]) { break; }
+//            index++;
+//            Ans = max(Ans, index * h[i]);
+//        }
+//        
+//        if(i+1 > h.size()) { continue; }
+//        for(int j=i+1; j<h.size(); j++) {
+//            if(h[i] > h[j]) { break; }
+//            index++;
+//            Ans = max(Ans, index * h[i]);
+//        }
+//    }
+//    return Ans;
+//}
+//
+//int main() {
+//    printf("%ld",largestRectangle({6320, 6020, 6098, 1332, 7263, 672, 9472, 2838, 3401, 9494}));
+//}
