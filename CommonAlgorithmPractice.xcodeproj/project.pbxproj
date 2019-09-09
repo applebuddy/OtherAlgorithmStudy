@@ -57,6 +57,8 @@
 		0781AAE42326701A00D8BC74 /* LargestRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE32326701A00D8BC74 /* LargestRectangle.swift */; };
 		0781AAE6232681B600D8BC74 /* LargestRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE5232681B600D8BC74 /* LargestRectangle.cpp */; };
 		0781AAE8232683C300D8BC74 /* StackExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAE7232683C300D8BC74 /* StackExam.swift */; };
+		0781AAEB232685E400D8BC74 /* Max Array Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAEA232685E400D8BC74 /* Max Array Sum.cpp */; };
+		0781AAED2326964D00D8BC74 /* Max Array Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781AAEC2326964D00D8BC74 /* Max Array Sum.swift */; };
 		384A22DF22B3EE620047D20C /* SortingMethod_QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */; };
 		384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22DE22B3EE610047D20C /* InsertionSort.cpp */; };
 		384A22E222B3EE7B0047D20C /* isRotatedExam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384A22E122B3EE7B0047D20C /* isRotatedExam.cpp */; };
@@ -126,6 +128,8 @@
 		0781AAE32326701A00D8BC74 /* LargestRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangle.swift; sourceTree = "<group>"; };
 		0781AAE5232681B600D8BC74 /* LargestRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestRectangle.cpp; sourceTree = "<group>"; };
 		0781AAE7232683C300D8BC74 /* StackExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExam.swift; sourceTree = "<group>"; };
+		0781AAEA232685E400D8BC74 /* Max Array Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Max Array Sum.cpp"; sourceTree = "<group>"; };
+		0781AAEC2326964D00D8BC74 /* Max Array Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Array Sum.swift"; sourceTree = "<group>"; };
 		384A22D222B3EE460047D20C /* CommonAlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonAlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A22DD22B3EE610047D20C /* SortingMethod_QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingMethod_QuickSort.cpp; sourceTree = "<group>"; };
 		384A22DE22B3EE610047D20C /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 				074439DB231FCDD300967116 /* JumpingOnTheClouds.cpp */,
 				074439DD231FD44900967116 /* RepeatedString.cpp */,
 				074439E1231FD58500967116 /* CountingValleys.cpp */,
+				0781AAE9232685D300D8BC74 /* Dynamic Programming(DP) */,
 				0781AADE23265B3200D8BC74 /* Bits */,
 				076410972323F89C00A3D2A6 /* Stack */,
 				076410902323D69300A3D2A6 /* Search */,
@@ -269,6 +274,15 @@
 				0781AAE12326631300D8BC74 /* FlippingBits.swift */,
 			);
 			path = Bits;
+			sourceTree = "<group>";
+		};
+		0781AAE9232685D300D8BC74 /* Dynamic Programming(DP) */ = {
+			isa = PBXGroup;
+			children = (
+				0781AAEA232685E400D8BC74 /* Max Array Sum.cpp */,
+				0781AAEC2326964D00D8BC74 /* Max Array Sum.swift */,
+			);
+			path = "Dynamic Programming(DP)";
 			sourceTree = "<group>";
 		};
 		384A22C922B3EE460047D20C = {
@@ -367,6 +381,7 @@
 				0781AADD232654F300D8BC74 /* (N)Queue With Two Stack.cpp in Sources */,
 				076410892323B88400A3D2A6 /* luck Balance.cpp in Sources */,
 				073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */,
+				0781AAED2326964D00D8BC74 /* Max Array Sum.swift in Sources */,
 				076410852323B41000A3D2A6 /* minimum Absolute Difference.swift in Sources */,
 				072A135E232129030003F7EC /* MeximumToys.cpp in Sources */,
 				076410872323B62700A3D2A6 /* minimum Absolute Difference.cpp in Sources */,
@@ -407,6 +422,7 @@
 				072A137223226C190003F7EC /* Hash Tables: Ransom Note.cpp in Sources */,
 				073C19CB231E8920004B5B9F /* GradingStudents.swift in Sources */,
 				0764108B2323BFA800A3D2A6 /* luck Balance.swift in Sources */,
+				0781AAEB232685E400D8BC74 /* Max Array Sum.cpp in Sources */,
 				072A1374232275BD0003F7EC /* Two Strings.cpp in Sources */,
 				075D580923254DD6004CBD60 /* sstream Exam.cpp in Sources */,
 				074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */,
