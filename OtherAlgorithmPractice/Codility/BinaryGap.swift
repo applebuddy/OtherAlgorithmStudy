@@ -12,9 +12,6 @@
 
 import Foundation
 
-// you can write to stdout for debugging purposes, e.g.
-// print("this is a debug message"
-
 public func solution(_ N: Int) -> Int {
     var num = N
     var len = 0
