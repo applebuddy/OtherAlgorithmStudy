@@ -14,20 +14,33 @@
 
 using namespace std;
 
-// Complete the jumpingOnClouds function below.
-int jumpingOnClouds(vector<int> c) {
+/// 통과 답안, while문 사용 Ver.
+int jumpingOnCloudsWithWhileLoop(vector<int> c) {
+    int Ans=0;
+    int idx=0;
+    
+    while(idx < c.size()) {
+        if(idx < c.size()-2 && c[idx+2]==0) {
+            idx+=2;
+            Ans++;
+        } else {
+            idx++;
+            Ans++;
+        }
+        if(idx == c.size()-1) break;
+    }
+    return Ans;
+}
+
+/// 통과 답안, for문 사용 Ver.
+int jumpingOnCloudsWithForLoop(vector<int> c) {
     int ans=0;
     for(int i=0; i<c.size(); i++) {
-        if (c.size()<=(i+1)) { break; }
-        if (c.size()<=(i+2)) { ans++; break; }
-        if (c[i+2]!=1) {
+        if (i+2 < c.size() && c[i+2]!=1) {
             ans++;
             i++;
-            continue;
-        }
-        if (c[i+1]!=1) {
+        } else if (c[i+1]!=1) {
             ans++;
-            continue;
         }
     }
     return ans;

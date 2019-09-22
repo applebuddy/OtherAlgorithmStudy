@@ -14,7 +14,26 @@ import Foundation
 
 // ex) 1,1,2,3,4,5,5,5,6,6 -> 1,5,6이 각각 1쌍 씩 있으므로, 답은 3
 // Complete the sockMerchant function below.
-func sockMerchant(n _: Int, ar: [Int]) -> Int {
+
+/// 통과 답안 , Boolean 사용버전
+func sockMerchantWithBoolean(n _: Int, ar: [Int]) -> Int {
+    var Ans = 0
+    var arr = ar.sorted()
+
+    var flag = true
+    for i in 0 ..< arr.count - 1 {
+        if arr[i] == arr[i + 1], flag {
+            Ans += 1
+            flag = false
+            continue
+        }
+        flag = true
+    }
+    return Ans
+}
+
+/// 통과 답안, while문 사용 버전
+func sockMerchantWithWhile(n _: Int, ar: [Int]) -> Int {
     var ans = 0
     var arr = ar
     while arr.count >= 2 {

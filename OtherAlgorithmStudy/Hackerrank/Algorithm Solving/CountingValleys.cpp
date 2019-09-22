@@ -14,7 +14,6 @@
 #include <iostream>
 using namespace std;
 
-// Complete the countingValleys function below.
 int countingValleys(int n, string s) {
     int h = 0;
     int ans = 0;
