@@ -9,6 +9,7 @@
 // MARK: - RepeatedString
 // MARK: 문자열 내 반복되는 'a'의 갯수를 찾아라!!
 // ex) 반복될 문자, "sadsdasd", 반복되는 길이 n의 문자열 내 'a'의 갯수를 반환
+
 #include <iostream>
 
 using namespace std;
@@ -25,3 +26,4 @@ long repeatedString(string s, long n) {
     }
     return aCount;
 }
+
