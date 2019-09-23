@@ -9,7 +9,7 @@
 import Foundation
 
 func minimumBribes(q: [Int]) {
-    var arr = q
+    let arr = q
     var ans = 0
     for i in stride(from: arr.count - 1, through: 0, by: -1) {
         if arr[i] - (1 + i) > 2 {

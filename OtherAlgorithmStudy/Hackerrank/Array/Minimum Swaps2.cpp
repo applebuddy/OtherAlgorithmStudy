@@ -9,12 +9,29 @@
 // MARK: - Minimum Swaps 2
 // MARK: 두개 쌍으로 숫자를 최소한으로 스왑한 횟수를 출력하라!
 
-//#include <iostream>
-//#include <vector>
-//
-//using namespace std;
-//
-//// Complete the minimumSwaps function below.
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+/// 통과답안, '19. 09. 23.
+int minimumSwaps(vector<int> arr) {
+    int Ans = 0;
+    for(int i=0; i<arr.size()-1; i++) {
+        if(arr[i]==i+1) continue;
+        for(int j=i+1; j<arr.size(); j++) {
+            if(arr[j]==i+1) {
+                int temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+                Ans++;
+                break;
+            }
+        }
+    }
+    return Ans;
+}
+
 //int minimumSwaps(vector<int> arr) {
 //    int Ans = 0;
 //    for(int i=0; i<arr.size()-1; i++) {
