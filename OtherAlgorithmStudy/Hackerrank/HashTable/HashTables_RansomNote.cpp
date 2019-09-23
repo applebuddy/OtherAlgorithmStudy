@@ -13,11 +13,28 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <unordered_map>
 #include <algorithm>
 #include <set>
 
-//using namespace std;
-//
+using namespace std;
+
+/// ✓ unordered_map 사용 통과 답안)
+
+void checkMagazine(vector<string> magazine, vector<string> note) {
+    unordered_map<string,int> UMP;
+
+    for(auto m : magazine) UMP[m]++;
+    for(auto n : note) UMP[n]--;
+    for(auto n : note) {
+        if(UMP[n] < 0) { printf("No\n"); return; }
+    }
+    printf("Yes\n");
+}
+
+
+//// set, map 사용 동과 답안)
+
 //vector<string> split_string(string);
 //map<string,int> m;
 //map<string,int> m2;

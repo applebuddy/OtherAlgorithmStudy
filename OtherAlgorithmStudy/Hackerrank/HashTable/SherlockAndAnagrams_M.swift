@@ -13,10 +13,6 @@
 // * Medium
 import Foundation
 
-// Complete the sherlockAndAnagrams function below.
-
-// MARK: - Review...
-
 func sherlockAndAnagrams(s: String) -> Int {
     let arr = Array(s)
     var Anagram = 0
