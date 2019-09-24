@@ -12,7 +12,7 @@
 
 using namespace std;
 
-// MARK: - MeximumToys Problem
+// MARK: - Mark and Toys Problem
 // MARK: k원을 통해 최대한의 로봇을 구매할 수 있도록 하라!
 
 int maximumToys(vector<int> prices, int k) {

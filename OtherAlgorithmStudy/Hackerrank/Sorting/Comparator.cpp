@@ -6,7 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: - Sorting: Comparator
+// MARK: - Comparator : Sorting Problem
 // MARK: 정렬 사용자정의 함수 만들기!!
 
 // <INPUT>
@@ -39,6 +39,7 @@ struct Player {
     string name;
 };
 
+/// ✭ 문자열의 문자를 차례대로 비교, 문자열의 길이는 짧을 수록 인덱스 상 앞에 자리한다.
 bool compareName(string s, string s2) {
     for(int i=0; i<min(s.length(),s2.length()); i++) {
         if(s[i] < s2[i]) {
@@ -70,6 +71,21 @@ public:
             return 0;
         }
     }
+    
+//    static int comparator(Player a, Player b)  {
+    //// 점수는 내림차순으로 큰 값이 앞에 오게 정렬한다.
+    /// 만약 점수가 같으면 문자열 인덱스 순으로 정렬한다.
+    /// 이때 문자열 길이는 짧을 수록 인덱스가 앞순서로 간다.
+//        if(a.score < b.score) return -1;
+//        else if(a.score == b.score) {
+//            for(int i=0; i<min(a.name.length(),b.name.length()); i++) {
+//                if(a.name[i] > b.name[i]) return -1;
+//                else if(a.name[i] < b.name[i]) return 0;
+//            }
+//            return (a.name.length() > b.name.length()) ? -1 : 0;
+//        }
+//        return 0;
+//    }
 };
 
 
