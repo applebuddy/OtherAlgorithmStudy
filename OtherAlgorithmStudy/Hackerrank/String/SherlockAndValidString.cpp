@@ -8,14 +8,41 @@
 
 // MARK: - Sherlock and the Valide String
 // MARK: 하나의 알파벳 제거만으로(제거 안하거나) 알파벳의 갯수가 일치하도록 할 수 있는 지 확인 하여 가능하면 "Yes", 불가능 시 "NO"를 반환하라!!
+
 #include <iostream>
 #include <vector>
 #include <array>
 #include <cmath>
+#include <unordered_map>
 #include <map>
 
 using namespace std;
 
+/// ✓ vector<Pair>, unordered_map<Pair> 사용, 통과 답안 예시)
+typedef pair<int,int> Pair;
+
+string isValid(string s) {
+    unordered_map<char,int> UMP;
+    unordered_map<int,int> CNT;
+    vector<Pair> CMP;
+    for(auto str : s) UMP[str]++;
+    for(auto mp : UMP) CNT[mp.second]++;
+    if(CNT.size()==1) return "YES";
+    else if(CNT.size()==2) {
+        for(auto mp : CNT) CMP.push_back(make_pair(mp.first,mp.second));
+        sort(CMP.begin(), CMP.end(), [](const Pair& a, const Pair& b) {
+            return a.first < b.first;
+        });
+        if(CMP[0].first==1 && CMP[0].second==1) return "YES";
+        if(CMP[0].second==1 || CMP[1].second==1) {
+            if(abs(CMP[0].first-CMP[1].first)==1) return "YES";
+        }
+    }
+    else return "NO";
+    return "NO";
+}
+
+/// vector<Pair>, map 사용 통과답안 예시)
 //array<int, 26> arr = {0,};
 //map<int,int> m;
 //
