@@ -14,7 +14,17 @@
 // -> 이때 k명이 a: [Int]의 모든 꽃을 구매할 수 있는 최소한의 비용을 출력하라!
 import Foundation
 
-// Complete the getMinimumCost function below.
+/// 내림차순 정렬 + $0/$1 parameters 사용 통과 답안, 복습, '19. 09. 24.
+func getMinimumCost2(k: Int, c: [Int]) -> Int {
+    let arr = c.sorted { $0 > $1 }
+    var Ans = 0
+    for i in arr.indices {
+        Ans += arr[i] * (1 + i / k)
+    }
+    return Ans
+}
+
+/// 내림차순 정렬 사용 통과 답안
 func getMinimumCost(k: Int, c: [Int]) -> Int {
     let arr = c.sorted { a1, a2 in
         a1 > a2

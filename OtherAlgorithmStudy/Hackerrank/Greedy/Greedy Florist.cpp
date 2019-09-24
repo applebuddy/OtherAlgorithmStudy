@@ -17,13 +17,23 @@
 
 using namespace std;
 
-// Complete the getMinimumCost function below.
-int getMinimumCost(int k, vector<int> c) {
-    int Ans = 0;
+/// 내림차순 정렬 사용 통과답안, 복습, '19. 09. 24.
+int getMinimumCost2(int k, vector<int> c) {
     sort(c.begin(), c.end(), greater<int>());
+    int Ans = 0;
     for(int i=0; i<c.size(); i++) {
-        printf("%d",c[i]);
-        Ans += (i/k + 1) * c[i];
+        if(i==0) Ans += c[i];
+        else Ans += c[i] * (1 + i / k);
     }
     return Ans;
 }
+
+//int getMinimumCost(int k, vector<int> c) {
+//    int Ans = 0;
+//    sort(c.begin(), c.end(), greater<int>());
+//    for(int i=0; i<c.size(); i++) {
+//        printf("%d",c[i]);
+//        Ans += (i/k + 1) * c[i];
+//    }
+//    return Ans;
+//}

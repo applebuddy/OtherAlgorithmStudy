@@ -16,7 +16,32 @@
 
 using namespace std;
 
-// Complete the luckBalance function below.
+/// iterator 미사용, 세부정렬 설정 후 연산버전, 통과답안
+int luckBalance2(int k, vector<vector<int>> contests) {
+    int Ans = 0;
+    sort(contests.begin(), contests.end(),
+    [](const vector<int> &a, const vector<int> &b) {
+        if(a[1]==b[1]) {
+            return a[0] > b[0];
+        }
+        else return a[1] > b[1];
+    });
+
+    for(auto v : contests) {
+        if(v[1]==1) {
+            if(k>0) {
+                Ans += v[0];
+                k--;
+            }
+            else Ans -= v[0];
+        } else {
+            Ans += v[0];
+        }
+    }
+    return Ans;
+}
+
+/// iterator 사용버전, 통과답안
 int luckBalance(int k, vector<vector<int>> contests) {
     int Ans = 0;
     
@@ -24,7 +49,6 @@ int luckBalance(int k, vector<vector<int>> contests) {
          [](vector<int> con1, vector<int> con2) {
              return con1[0] > con2[0];
          });
-    
     
     vector<vector<int>>::iterator iter;
     for(iter=contests.begin(); iter!=contests.end(); iter++) {
@@ -39,5 +63,18 @@ int luckBalance(int k, vector<vector<int>> contests) {
             Ans += (*iter)[0];
         }
     }
+    printf("%d\n",Ans);
     return Ans;
+}
+
+int main() {
+    ios_base :: sync_with_stdio(0); cin.tie(0);
+    int n,k;
+    cin >> n >> k;
+    vector<vector<int>> contests(n,vector<int>(2,0));
+    for(int i=0; i<n; i++) {
+        cin >> contests[i][0] >> contests[i][1];
+    }
+    luckBalance2(k,contests);
+    return 0;
 }
