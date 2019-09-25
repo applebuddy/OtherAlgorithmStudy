@@ -27,11 +27,26 @@
 #include <algorithm>
 #include <vector>
 #include <map>
+#include <unordered_map>
 
 using namespace std;
 
-// Complete the whatFlavors function below.
-void whatFlavors(vector<int> cost, int money) {
+/// unordered_map 사용 통과답안
+ void whatFlavorsWithUMP(vector<int> cost, int money) {
+    unordered_map<int,int> UMP;
+    for(int i=0; i<cost.size(); i++) UMP[cost[i]]=i+1;
+    for(int i=0; i<cost.size(); i++) {
+        unordered_map<int,int>::iterator iter = UMP.find(money-cost[i]);
+        if(iter!=UMP.end() && i+1!=(*iter).second) {
+        printf("%d %d\n",i+1,(*iter).second);
+        return;
+        }
+    }
+    return;
+}
+
+/// map 사용 통과답안
+void whatFlavorsWithMP(vector<int> cost, int money) {
     map<int,int> m;
     for(int i=0; i<cost.size(); i++) {
         m[cost[i]] = i;

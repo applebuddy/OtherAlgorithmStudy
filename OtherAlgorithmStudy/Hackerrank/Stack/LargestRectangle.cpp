@@ -18,12 +18,32 @@
 //
 //    9
 
-//#include <vector>
-//#include <iostream>
-//
-//using namespace std;
-//
-//// Complete the largestRectangle function below.
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
+/// max() 미사용 통과 답안)
+long largestRectangle2(vector<int> h) {
+    int Ans = 0;
+    for(int i=0; i<h.size(); i++) {
+        int Cnt = 1;
+        for(int j=i-1; j>=0; j--) {
+            if(h[i]<=h[j]) Cnt++;
+            else break;
+        }
+
+        for(int j=i+1; j<h.size(); j++) {
+            if(h[i]<=h[j]) Cnt++;
+            else break;
+        }
+
+        Ans = (Ans < Cnt*h[i]) ? Cnt*h[i] : Ans;
+    }
+    return Ans;
+}
+
+/// max() 사용 통과 답안)
 //long largestRectangle(vector<int> h) {
 //    int Ans = 0;
 //    for(int i=0; i<h.size(); i++) {
