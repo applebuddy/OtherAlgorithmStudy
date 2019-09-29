@@ -24,11 +24,11 @@ int convertBinaryAndCheck(int n) {
     return Ans;
 }
 
-int main() {
-    int n;
-    cin >> n;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    int Ans = convertBinaryAndCheck(n);
-    printf("%d\n",Ans);
-    return 0;
-}
+//int main() {
+//    int n;
+//    cin >> n;
+//    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+//    int Ans = convertBinaryAndCheck(n);
+//    printf("%d\n",Ans);
+//    return 0;
+//}
