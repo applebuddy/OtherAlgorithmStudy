@@ -6,7 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
-/// MARK: - LInkedListStructure
+/// MARK: - LInkedListStructure Implementation
 
 #include <iostream>
 #include <vector>
@@ -18,6 +18,7 @@ class SinglyLinkedListNode {
         int data;
         SinglyLinkedListNode *next;
 
+    /// MARK: Initialization of SinglyLinkedListNode
         SinglyLinkedListNode(int node_data) {
             this->data = node_data;
             this->next = nullptr;
@@ -29,11 +30,13 @@ class SinglyLinkedList {
         SinglyLinkedListNode *head;
         SinglyLinkedListNode *tail;
 
+    /// MARK: Initialization of SinglyLinkedList
         SinglyLinkedList() {
             this->head = nullptr;
             this->tail = nullptr;
         }
 
+    /// MARK: Insert Node
         void insert_node(int node_data) {
             SinglyLinkedListNode* node = new SinglyLinkedListNode(node_data);
 
@@ -45,4 +48,23 @@ class SinglyLinkedList {
 
             this->tail = node;
         }
+    
+    /// MARK: Delete Node
+    SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, int position) {
+        /// 만약 포지션이 0이면 포인터 위치만 그 다음 노드로 바꾸면 도미
+        /// 0이 아니라면, position-1 위치의 노드를 제거(Using recursive Function)
+        if(position==0) head = head->next;
+        else head->next = deleteNode(head->next,position-1);
+        return head;
+    }
+    
+    /// MARK: Print Nodes
+    
+    void printLinkedList(SinglyLinkedListNode* head) {
+        while(head!=nullptr) {
+            printf("%d\n",head->data);
+            head = head->next;
+        }
+        return;
+    }
 };
