@@ -67,4 +67,23 @@ class SinglyLinkedList {
         }
         return;
     }
+    
+    /// MARK: - Print In Reverse
+    void reversePrint(SinglyLinkedListNode* head) {
+        // MARK: CASE 1)
+        if(head!=NULL) {
+            reversePrint(head->next);
+            printf("%d\n",head->data);
+        }
+        
+        // MARK: CASE 2)
+//        vector<int> Ans;
+//        Ans.push_back(head->data);
+//        while(head->next!=NULL) {
+//            head = head->next;
+//            Ans.push_back(head->data);
+//        }
+//        reverse(Ans.begin(), Ans.end());
+//        for(auto v: Ans) printf("%d\n",v);
+    }
 };
