@@ -21,8 +21,10 @@ public:
     //  * map 사용 시 48%
     vector<int> twoSum2(vector<int>& nums, int target) {
         unordered_map<int,int> MP;
+        // map에 배열 키(배열값), 값(배열값 인덱스)를 저장
         for(int i=0; i<nums.size(); i++) MP[nums[i]]=i;
         for(int i=0; i<nums.size(); i++) {
+            // 동일한 인덱스 값이 아닌 짝 값(target - 배열값)이 존재하는지 map을 검색, 있다면 두개의 인덱스를 반환
             if(MP[target-nums[i]] > 0 && MP[target-nums[i]] != i) {
                 return {i, MP[target-nums[i]]};
             }
