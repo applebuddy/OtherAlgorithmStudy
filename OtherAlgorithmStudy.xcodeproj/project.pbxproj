@@ -118,6 +118,7 @@
 		076410992323F8AF00A3D2A6 /* isBalanced.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076410982323F8AF00A3D2A6 /* isBalanced.cpp */; };
 		0766B2772372CF22005247C5 /* MaximumFrequencyStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0766B2762372CF22005247C5 /* MaximumFrequencyStack.cpp */; };
 		0766B2792372DE15005247C5 /* ImplementQueueUsingStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0766B2782372DE15005247C5 /* ImplementQueueUsingStack.cpp */; };
+		0766B27B237335E1005247C5 /* MinimumGeneticMutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0766B27A237335E1005247C5 /* MinimumGeneticMutation.cpp */; };
 		0766D2DC23376525006D9E2E /* Day5_Loops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0766D2DB23376525006D9E2E /* Day5_Loops.cpp */; };
 		0766D2DE233765DC006D9E2E /* Day5_Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766D2DD233765DC006D9E2E /* Day5_Loops.swift */; };
 		0766D2E023379265006D9E2E /* SockMerchant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0766D2DF23379265006D9E2E /* SockMerchant.cpp */; };
@@ -305,6 +306,7 @@
 		076410982323F8AF00A3D2A6 /* isBalanced.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isBalanced.cpp; sourceTree = "<group>"; };
 		0766B2762372CF22005247C5 /* MaximumFrequencyStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumFrequencyStack.cpp; sourceTree = "<group>"; };
 		0766B2782372DE15005247C5 /* ImplementQueueUsingStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImplementQueueUsingStack.cpp; sourceTree = "<group>"; };
+		0766B27A237335E1005247C5 /* MinimumGeneticMutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumGeneticMutation.cpp; sourceTree = "<group>"; };
 		0766D2DB23376525006D9E2E /* Day5_Loops.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day5_Loops.cpp; sourceTree = "<group>"; };
 		0766D2DD233765DC006D9E2E /* Day5_Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5_Loops.swift; sourceTree = "<group>"; };
 		0766D2DF23379265006D9E2E /* SockMerchant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SockMerchant.cpp; sourceTree = "<group>"; };
@@ -447,6 +449,7 @@
 				07398F3E2358AECE00222F7D /* 4Sum.cpp */,
 				07398F422358C57C00222F7D /* SubSets.cpp */,
 				07B5BD22235A02E500FA2F33 /* LongestPalindromicSubstring.cpp */,
+				0766B27A237335E1005247C5 /* MinimumGeneticMutation.cpp */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -883,6 +886,7 @@
 				0754ED942343D6DE0032448F /* Day14_Scope.cpp in Sources */,
 				077E3241234064700003BF9F /* SolveMeFirst.cpp in Sources */,
 				0766D2E023379265006D9E2E /* SockMerchant.cpp in Sources */,
+				0766B27B237335E1005247C5 /* MinimumGeneticMutation.cpp in Sources */,
 				07284F75233D3E2800D6F191 /* Day10_BinaryNumbers.swift in Sources */,
 				07284F4B233C8E1A00D6F191 /* CatsAndAMouse.swift in Sources */,
 				076410852323B41000A3D2A6 /* minimum Absolute Difference.swift in Sources */,
