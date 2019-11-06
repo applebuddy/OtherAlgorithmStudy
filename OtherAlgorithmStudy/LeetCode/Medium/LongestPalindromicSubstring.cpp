@@ -7,7 +7,7 @@
 //
 
 /// MARK: - 가장 긴 펠린드롬 부분 문자열 문제 : Manacher's Algorithm Problem
-
+#if 0
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -26,9 +26,10 @@ public:
             if(i <= r) A[i] = min(A[2*p-i],r-i);
             else A[i] = 0;
             
+            printf("r:%d, p=%d\n",r,p);
             /// 펠린드롬 문자열 여지가 있는 인덱스를 기준으로 펠린드롬 가능 범위를 지정한다.
             while(i-A[i]-1 >= 0 && i+A[i]+1 <S.length() && S[i-A[i]-1]==S[i+A[i]+1]) A[i]++;
-            
+            printf("A[%d] = %d\n",i,A[i]);
             /// 이미 식별된 펠린드롬 문자열 범위는 다시 탐색할 필요가 없으므로 건너 뛴다.
             if(r < i+A[i]) {
                 r = i+A[i];
@@ -56,7 +57,7 @@ public:
             S+='@';
         }
 
-        string ANS = manacherAlgorithm(S);
+        string ANS = manacherAlgorithm(s);
         string Ans = "";
         
         /// '@' 문자를 제외한 가장 긴 펠린드롬 부분문자열을 반환한다.
@@ -66,3 +67,11 @@ public:
         return Ans;
     }
 };
+
+int main() {
+    LongestPalindromicSubstring L;
+    L.longestPalindrome("BANANAC");
+    return 0;
+}
+#endif
+// @ A @ B @ A @ A @ B @ A @ 

@@ -16,7 +16,7 @@ import Foundation
 func countSwaps(a: [Int]) {
     var arr = a
     var cnt = 0
-    for i in arr.indices {
+    for _ in arr.indices {
         for j in 0 ..< arr.count - 1 {
             if arr[j] > arr[j + 1] { arr.swapAt(j, j + 1); cnt += 1 }
         }

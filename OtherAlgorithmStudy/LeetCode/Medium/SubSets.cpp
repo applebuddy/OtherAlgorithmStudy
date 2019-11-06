@@ -8,6 +8,7 @@
 
 /// MARK: - SubSets
 //  - 재귀적 용법 활용 부분집합 출력 문제 통과답안
+#if 0
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -40,3 +41,4 @@ public:
         return Ans;
     }
 };
+#endif

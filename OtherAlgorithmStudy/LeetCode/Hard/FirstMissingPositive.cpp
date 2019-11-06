@@ -7,6 +7,7 @@
 //
 
 /// MARK: - First Missing Postiive : Hard Level Array algorithm Problem
+#if 0
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -35,3 +36,4 @@ public:
         return nums.back()+1;
     }
 };
+#endif

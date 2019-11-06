@@ -7,7 +7,7 @@
 //
 
 /// MARK: - Next Permutation : Mathematics Algorithm Problem
-
+#if 0
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -19,3 +19,4 @@ public:
         next_permutation(nums.begin(), nums.end());
     }
 };
+#endif

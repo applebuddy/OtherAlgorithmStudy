@@ -18,7 +18,7 @@ import Foundation
 /// 통과 답안 , Boolean 사용버전
 func sockMerchantWithBoolean(n _: Int, ar: [Int]) -> Int {
     var Ans = 0
-    var arr = ar.sorted()
+    let arr = ar.sorted()
 
     var flag = true
     for i in 0 ..< arr.count - 1 {

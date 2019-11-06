@@ -7,6 +7,7 @@
 //
 
 /// MARK: - Container With Most Water : Range Calculation Algorithm Problem
+#if 0
 #include <vector>
 #include <iostream>
 using namespace std;
@@ -27,3 +28,4 @@ public:
         return Ans;
     }
 };
+#endif

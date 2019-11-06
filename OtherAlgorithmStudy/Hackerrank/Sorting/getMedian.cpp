@@ -61,8 +61,8 @@ int activityNotifications(vector<int> expenditure, int d) {
     return Ans;
 }
 
-int main() {
-    double fuck = activityNotifications({10, 20, 30, 40, 50},3);
-    printf("%lf\n",fuck);
-    return 0;
-}
+//int main() {
+//    double fuck = activityNotifications({10, 20, 30, 40, 50},3);
+//    printf("%lf\n",fuck);
+//    return 0;
+//}

@@ -15,7 +15,7 @@
 import Foundation
 
 public func checkPermutation(_ A: [Int]) -> Int {
-    var arr = A.sorted()
+    let arr = A.sorted()
     var Ans = 1
     for i in 1 ... arr.count {
         if i != arr[i - 1] { Ans = 0; break }

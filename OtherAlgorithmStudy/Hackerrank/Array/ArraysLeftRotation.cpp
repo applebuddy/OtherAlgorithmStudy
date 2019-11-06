@@ -14,6 +14,19 @@
 
 using namespace std;
 
+/// 1차원 배열 회전 통과 답안 2)
+vector<int> rotLeft2(vector<int> a, int d) {
+    int n = (int)a.size();
+    int flag = d%n;
+    vector<int> Ans(n);
+    for(int i=0; i<n; i++) {
+        int idx = (flag+i)%n;
+        Ans[i] = a[idx];
+    }
+    return Ans;
+}
+
+/// 1차원 배열 회전 통과 답안 1)
 vector<int> rotLeft(vector<int> a, int d) {
     vector<int> Ans;
     int rot = d % a.size();

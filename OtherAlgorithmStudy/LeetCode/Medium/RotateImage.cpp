@@ -24,16 +24,16 @@ void rotate(vector<vector<int>>& matrix) {
     matrix = V;
 }
 
-int main() {
-    int N,M; cin>>N>>M;
-    vector<vector<int>> V(N,vector<int>(M,0));
-    for(int i=0; i<N; i++)
-        for(int j=0; j<M; j++) cin>>V[i][j];
-    rotate(V);
-    for(int i=0; i<N; i++) {
-        for(int j=0; j<M; j++) printf("%d ", V[i][j]);
-        printf("\n");
-    }
-    return 0;
-}
+//int main() {
+//    int N,M; cin>>N>>M;
+//    vector<vector<int>> V(N,vector<int>(M,0));
+//    for(int i=0; i<N; i++)
+//        for(int j=0; j<M; j++) cin>>V[i][j];
+//    rotate(V);
+//    for(int i=0; i<N; i++) {
+//        for(int j=0; j<M; j++) printf("%d ", V[i][j]);
+//        printf("\n");
+//    }
+//    return 0;
+//}
 #endif

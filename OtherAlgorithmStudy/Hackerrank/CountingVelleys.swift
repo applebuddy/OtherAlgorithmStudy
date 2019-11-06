@@ -9,7 +9,7 @@
 import Foundation
 
 func countingValleys(n _: Int, s: String) -> Int {
-    var arr = Array(s)
+    let arr = Array(s)
     var height = 0
     var Ans = 0
     for i in arr.indices {

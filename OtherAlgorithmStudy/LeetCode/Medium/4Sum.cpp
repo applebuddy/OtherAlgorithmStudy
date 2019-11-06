@@ -7,6 +7,7 @@
 //
 
 /// MARK: - 4SUM
+#if 0
 #include <vector>
 #include <set>
 using namespace std;
@@ -38,3 +39,4 @@ public:
         return Ans;
     }
 };
+#endif

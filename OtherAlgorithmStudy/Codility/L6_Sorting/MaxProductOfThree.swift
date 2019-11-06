@@ -15,7 +15,7 @@ import Foundation
 public func maxProductOfThree(_ A: inout [Int]) -> Int {
     if A.count == 3 { return A[0] * A[1] * A[2] }
     var Ans = 0
-    var arr = A.sorted()
+    let arr = A.sorted()
     Ans = max(arr[0] * arr[1] * arr[A.count - 1], arr[A.count - 1] * arr[A.count - 2] * arr[A.count - 3])
     return Ans
 }

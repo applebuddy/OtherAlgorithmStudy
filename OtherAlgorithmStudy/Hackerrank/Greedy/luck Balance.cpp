@@ -67,14 +67,14 @@ int luckBalance(int k, vector<vector<int>> contests) {
     return Ans;
 }
 
-int main() {
-    ios_base :: sync_with_stdio(0); cin.tie(0);
-    int n,k;
-    cin >> n >> k;
-    vector<vector<int>> contests(n,vector<int>(2,0));
-    for(int i=0; i<n; i++) {
-        cin >> contests[i][0] >> contests[i][1];
-    }
-    luckBalance2(k,contests);
-    return 0;
-}
+//int main() {
+//    ios_base :: sync_with_stdio(0); cin.tie(0);
+//    int n,k;
+//    cin >> n >> k;
+//    vector<vector<int>> contests(n,vector<int>(2,0));
+//    for(int i=0; i<n; i++) {
+//        cin >> contests[i][0] >> contests[i][1];
+//    }
+//    luckBalance2(k,contests);
+//    return 0;
+//}

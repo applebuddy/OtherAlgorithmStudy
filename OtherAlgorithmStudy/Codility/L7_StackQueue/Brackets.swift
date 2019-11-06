@@ -18,7 +18,7 @@
 import Foundation
 
 public func Brackets(_ S: String) -> Int {
-    var arr = Array(S)
+    let arr = Array(S)
     var stk = [Character]()
     for i in arr.indices {
         if arr[i] == "(" || arr[i] == "{" || arr[i] == "[" {
