@@ -17,7 +17,7 @@ using namespace std;
 class FreqStack {
 public:
     stack<int> STK;
-    map<int,int,greater<int>> MP;
+    map<int> MP;
     
     FreqStack() {}
     
