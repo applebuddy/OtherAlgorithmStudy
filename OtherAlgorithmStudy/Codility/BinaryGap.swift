@@ -12,6 +12,25 @@
 
 import Foundation
 
+public func solution(_ N : Int) -> Int {
+    var num = N
+    var Ans = 0, oneCnt = 0, zeroCnt = 0
+    while(num > 0) {
+        if num % 2 == 1 {
+            oneCnt += 1
+            if oneCnt > 0 { Ans = Ans < zeroCnt ? zeroCnt : Ans }
+            zeroCnt = 0
+        } else {
+            if oneCnt > 0 { zeroCnt += 1 }
+        }
+        num /= 2
+    }
+    return Ans
+}
+
+/*
+import Foundation
+
 public func solution(_ N: Int) -> Int {
     var num = N
     var len = 0
@@ -30,3 +49,4 @@ public func solution(_ N: Int) -> Int {
     }
     return Ans
 }
+*/
