@@ -12,10 +12,10 @@
 
 import Foundation
 
-public func solution(_ N : Int) -> Int {
+public func solution(_ N: Int) -> Int {
     var num = N
     var Ans = 0, oneCnt = 0, zeroCnt = 0
-    while(num > 0) {
+    while num > 0 {
         if num % 2 == 1 {
             oneCnt += 1
             if oneCnt > 0 { Ans = Ans < zeroCnt ? zeroCnt : Ans }
@@ -29,24 +29,24 @@ public func solution(_ N : Int) -> Int {
 }
 
 /*
-import Foundation
+ import Foundation
 
-public func solution(_ N: Int) -> Int {
-    var num = N
-    var len = 0
-    var Ans = 0
-    var oneV = 0
-    while num > 0 {
-        print(num % 2)
-        if num % 2 == 1 {
-            if oneV != 0 { Ans = max(Ans, len) }
-            oneV += 1
-            len = 0
-        } else {
-            len += 1
-        }
-        num /= 2
-    }
-    return Ans
-}
-*/
+ public func solution(_ N: Int) -> Int {
+ var num = N
+ var len = 0
+ var Ans = 0
+ var oneV = 0
+ while num > 0 {
+     print(num % 2)
+     if num % 2 == 1 {
+         if oneV != 0 { Ans = max(Ans, len) }
+         oneV += 1
+         len = 0
+     } else {
+         len += 1
+     }
+     num /= 2
+ }
+ return Ans
+ }
+ */

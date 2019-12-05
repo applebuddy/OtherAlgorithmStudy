@@ -12,14 +12,14 @@
 
 import Foundation
 
-public func solution(_ A : inout [Int]) -> Int {
-   var dic = [Int:Int]()
-   for i in A.indices {
-       dic[A[i]] = (dic[A[i]] ?? 0) + 1
-   }
-   
-   for (key,value) in dic {
-       if value % 2 == 1 { return key }
-   }
-   return 0
+public func solution(_ A: inout [Int]) -> Int {
+    var dic = [Int: Int]()
+    for i in A.indices {
+        dic[A[i]] = (dic[A[i]] ?? 0) + 1
+    }
+
+    for (key, value) in dic {
+        if value % 2 == 1 { return key }
+    }
+    return 0
 }
