@@ -27,3 +27,16 @@ func passingCars(_ A: inout [Int]) -> Int {
     }
     return Ans
 }
+
+import Foundation
+
+public func solution2(_ A: inout [Int]) -> Int {
+    var Ans = 0
+    var cnt = 0
+    for i in A.indices {
+        if A[i] == 0 { cnt += 1 }
+        else { Ans += cnt }
+        if Ans > 1_000_000_000 { return -1 }
+    }
+    return Ans
+}

@@ -14,8 +14,8 @@ import Foundation
 
 // MARK: - Set 활용 빠진요소 찾기 답안
 
-public func findMissingElement2(_ A : inout [Int]) -> Int {
-    var ST = Set<Int>(1...A.count+1)
+public func findMissingElement2(_ A: inout [Int]) -> Int {
+    var ST = Set<Int>(1 ... A.count + 1)
     for i in A.indices { ST.remove(A[i]) }
     return ST.first!
 }
