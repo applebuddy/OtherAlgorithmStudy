@@ -125,6 +125,7 @@
 		0766D2E023379265006D9E2E /* SockMerchant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0766D2DF23379265006D9E2E /* SockMerchant.cpp */; };
 		0766D2E223379495006D9E2E /* CountingVelleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766D2E123379495006D9E2E /* CountingVelleys.swift */; };
 		0766D2E62337BA80006D9E2E /* JumpingOnTheClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766D2E52337BA80006D9E2E /* JumpingOnTheClouds.swift */; };
+		0773D36C23A11533006560AF /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0773D36B23A11533006560AF /* TrappingRainWater.cpp */; };
 		077542A32331FD8600CF6C40 /* Day1_DataTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077542A22331FD8600CF6C40 /* Day1_DataTypes.cpp */; };
 		077542A7233243FF00CF6C40 /* MaxCounters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077542A6233243FF00CF6C40 /* MaxCounters.cpp */; };
 		077542A923324D7900CF6C40 /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 077542A823324D7900CF6C40 /* MissingInteger.cpp */; };
@@ -161,18 +162,26 @@
 		0783EC37234BD119009449C7 /* Day19_Interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0783EC36234BD119009449C7 /* Day19_Interfaces.cpp */; };
 		078795352330C1B400097C86 /* Day0_HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078795342330C1B400097C86 /* Day0_HelloWorld.cpp */; };
 		078795392330C89C00097C86 /* SmartNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078795382330C89C00097C86 /* SmartNumber.cpp */; };
+		0788542E239D258800B31331 /* GenomicRangeQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0788542D239D258800B31331 /* GenomicRangeQuery.swift */; };
 		07B2605223477E1600BE24CF /* Day16_Exceptions-StringToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B2605123477E1600BE24CF /* Day16_Exceptions-StringToInteger.cpp */; };
 		07B2605423477FA800BE24CF /* Day17_MoreExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B2605323477FA800BE24CF /* Day17_MoreExceptions.cpp */; };
 		07B5BD23235A02E500FA2F33 /* LongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B5BD22235A02E500FA2F33 /* LongestPalindromicSubstring.cpp */; };
 		07B5BD27235A432C00FA2F33 /* SpllitAStringInBalancedStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B5BD26235A432C00FA2F33 /* SpllitAStringInBalancedStrings.cpp */; };
 		07B5BD29235A44E200FA2F33 /* DefangingAndIPAddresss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B5BD28235A44E200FA2F33 /* DefangingAndIPAddresss.cpp */; };
 		07B5BD2B235A46AE00FA2F33 /* JewelsAndStones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B5BD2A235A46AE00FA2F33 /* JewelsAndStones.cpp */; };
+		07B7F6A5238D37D600EA9C10 /* PushDominoes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B7F6A4238D37D600EA9C10 /* PushDominoes.cpp */; };
+		07B7F6A7238D3A9700EA9C10 /* countingBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B7F6A6238D3A9700EA9C10 /* countingBits.cpp */; };
+		07B7F6A9238D4AD400EA9C10 /* bestTimeToBuyAndSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B7F6A8238D4AD400EA9C10 /* bestTimeToBuyAndSellStock.cpp */; };
+		07B7F6AB238D590200EA9C10 /* MinCostClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B7F6AA238D590200EA9C10 /* MinCostClimbingStairs.cpp */; };
+		07B7F6AD238D5B2300EA9C10 /* FindTheDuplicateNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B7F6AC238D5B2300EA9C10 /* FindTheDuplicateNumber.cpp */; };
+		07B7F6B1238EA57800EA9C10 /* HouseRobber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B7F6B0238EA57800EA9C10 /* HouseRobber.cpp */; };
 		07D07C102344E9A80010E07F /* Arrays-DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D07C0F2344E9A80010E07F /* Arrays-DS.cpp */; };
 		07D07C122344EAB40010E07F /* LinkedListStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D07C112344EAB40010E07F /* LinkedListStructure.cpp */; };
 		07D30A5C2338D238000EA0DA /* 2차원배열회전.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D30A5B2338D238000EA0DA /* 2차원배열회전.cpp */; };
 		07D30A5E2338DC4F000EA0DA /* Day6_LetsReview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D30A5D2338DC4F000EA0DA /* Day6_LetsReview.cpp */; };
 		07D30A602338DF72000EA0DA /* Day6_LetsReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D30A5F2338DF72000EA0DA /* Day6_LetsReview.swift */; };
 		07D30A622338E2BB000EA0DA /* RepeatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D30A612338E2BB000EA0DA /* RepeatedString.swift */; };
+		07D4994F239BC8390099B7A9 /* MaxCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4994E239BC8390099B7A9 /* MaxCounters.swift */; };
 		07DD2A6D2327E22F0013C88F /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DD2A6C2327E22F0013C88F /* BinaryGap.swift */; };
 		07ED12192338FF8200B6DECC /* 2DArray_DS_Easy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07ED12182338FF8200B6DECC /* 2DArray_DS_Easy.cpp */; };
 		07ED121B2339015100B6DECC /* ArraysLeftRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07ED121A2339015100B6DECC /* ArraysLeftRotation.cpp */; };
@@ -314,6 +323,7 @@
 		0766D2DF23379265006D9E2E /* SockMerchant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SockMerchant.cpp; sourceTree = "<group>"; };
 		0766D2E123379495006D9E2E /* CountingVelleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingVelleys.swift; sourceTree = "<group>"; };
 		0766D2E52337BA80006D9E2E /* JumpingOnTheClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingOnTheClouds.swift; sourceTree = "<group>"; };
+		0773D36B23A11533006560AF /* TrappingRainWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrappingRainWater.cpp; sourceTree = "<group>"; };
 		077542A22331FD8600CF6C40 /* Day1_DataTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1_DataTypes.cpp; sourceTree = "<group>"; };
 		077542A6233243FF00CF6C40 /* MaxCounters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCounters.cpp; sourceTree = "<group>"; };
 		077542A823324D7900CF6C40 /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
@@ -350,18 +360,26 @@
 		0783EC36234BD119009449C7 /* Day19_Interfaces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day19_Interfaces.cpp; sourceTree = "<group>"; };
 		078795342330C1B400097C86 /* Day0_HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day0_HelloWorld.cpp; sourceTree = "<group>"; };
 		078795382330C89C00097C86 /* SmartNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmartNumber.cpp; sourceTree = "<group>"; };
+		0788542D239D258800B31331 /* GenomicRangeQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenomicRangeQuery.swift; sourceTree = "<group>"; };
 		07B2605123477E1600BE24CF /* Day16_Exceptions-StringToInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Day16_Exceptions-StringToInteger.cpp"; sourceTree = "<group>"; };
 		07B2605323477FA800BE24CF /* Day17_MoreExceptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day17_MoreExceptions.cpp; sourceTree = "<group>"; };
 		07B5BD22235A02E500FA2F33 /* LongestPalindromicSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSubstring.cpp; sourceTree = "<group>"; };
 		07B5BD26235A432C00FA2F33 /* SpllitAStringInBalancedStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpllitAStringInBalancedStrings.cpp; sourceTree = "<group>"; };
 		07B5BD28235A44E200FA2F33 /* DefangingAndIPAddresss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DefangingAndIPAddresss.cpp; sourceTree = "<group>"; };
 		07B5BD2A235A46AE00FA2F33 /* JewelsAndStones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JewelsAndStones.cpp; sourceTree = "<group>"; };
+		07B7F6A4238D37D600EA9C10 /* PushDominoes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PushDominoes.cpp; sourceTree = "<group>"; };
+		07B7F6A6238D3A9700EA9C10 /* countingBits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = countingBits.cpp; sourceTree = "<group>"; };
+		07B7F6A8238D4AD400EA9C10 /* bestTimeToBuyAndSellStock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bestTimeToBuyAndSellStock.cpp; sourceTree = "<group>"; };
+		07B7F6AA238D590200EA9C10 /* MinCostClimbingStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinCostClimbingStairs.cpp; sourceTree = "<group>"; };
+		07B7F6AC238D5B2300EA9C10 /* FindTheDuplicateNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindTheDuplicateNumber.cpp; sourceTree = "<group>"; };
+		07B7F6B0238EA57800EA9C10 /* HouseRobber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HouseRobber.cpp; sourceTree = "<group>"; };
 		07D07C0F2344E9A80010E07F /* Arrays-DS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Arrays-DS.cpp"; sourceTree = "<group>"; };
 		07D07C112344EAB40010E07F /* LinkedListStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListStructure.cpp; sourceTree = "<group>"; };
 		07D30A5B2338D238000EA0DA /* 2차원배열회전.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2차원배열회전.cpp"; sourceTree = "<group>"; };
 		07D30A5D2338DC4F000EA0DA /* Day6_LetsReview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day6_LetsReview.cpp; sourceTree = "<group>"; };
 		07D30A5F2338DF72000EA0DA /* Day6_LetsReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6_LetsReview.swift; sourceTree = "<group>"; };
 		07D30A612338E2BB000EA0DA /* RepeatedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedString.swift; sourceTree = "<group>"; };
+		07D4994E239BC8390099B7A9 /* MaxCounters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCounters.swift; sourceTree = "<group>"; };
 		07DD2A6C2327E22F0013C88F /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
 		07ED12182338FF8200B6DECC /* 2DArray_DS_Easy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2DArray_DS_Easy.cpp; sourceTree = "<group>"; };
 		07ED121A2339015100B6DECC /* ArraysLeftRotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysLeftRotation.cpp; sourceTree = "<group>"; };
@@ -390,6 +408,7 @@
 				077542A823324D7900CF6C40 /* MissingInteger.cpp */,
 				077542AA23324F2200CF6C40 /* MissingIntegers.swift */,
 				077542A6233243FF00CF6C40 /* MaxCounters.cpp */,
+				07D4994E239BC8390099B7A9 /* MaxCounters.swift */,
 				071F31BE232B73E100D5089C /* PermCheck.cpp */,
 				071F31BC232B727200D5089C /* PermCheck.swift */,
 				071F31CC232BB57D00D5089C /* FrogRiverOne.cpp */,
@@ -403,6 +422,7 @@
 			children = (
 				071F31D1232BCF6D00D5089C /* PassingCars.cpp */,
 				071F31CF232BCA4700D5089C /* PassingCars.swift */,
+				0788542D239D258800B31331 /* GenomicRangeQuery.swift */,
 			);
 			path = L5_PrefixSums;
 			sourceTree = "<group>";
@@ -421,6 +441,9 @@
 			isa = PBXGroup;
 			children = (
 				0721B84123548E4700D6E5EB /* twoSum.cpp */,
+				07B7F6A8238D4AD400EA9C10 /* bestTimeToBuyAndSellStock.cpp */,
+				07B7F6B0238EA57800EA9C10 /* HouseRobber.cpp */,
+				07B7F6AA238D590200EA9C10 /* MinCostClimbingStairs.cpp */,
 				0766B2782372DE15005247C5 /* ImplementQueueUsingStack.cpp */,
 				0721B8432354961300D6E5EB /* RemoveDuplicatesFromSortedArray.cpp */,
 				0721B845235499D400D6E5EB /* RemoveElement.cpp */,
@@ -437,6 +460,7 @@
 			children = (
 				0721B84B2354A97C00D6E5EB /* FirstMissingPositive.cpp */,
 				0766B2762372CF22005247C5 /* MaximumFrequencyStack.cpp */,
+				0773D36B23A11533006560AF /* TrappingRainWater.cpp */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -445,6 +469,8 @@
 			isa = PBXGroup;
 			children = (
 				0721B84D2354AE2800D6E5EB /* RotateImage.cpp */,
+				07B7F6A4238D37D600EA9C10 /* PushDominoes.cpp */,
+				07B7F6A6238D3A9700EA9C10 /* countingBits.cpp */,
 				0721B8502354B28400D6E5EB /* NextPermutation.cpp */,
 				07398F402358B26B00222F7D /* SummaryRanges.cpp */,
 				0721B8522354B72600D6E5EB /* ContainerWithMostWater.cpp */,
@@ -453,6 +479,7 @@
 				07B5BD22235A02E500FA2F33 /* LongestPalindromicSubstring.cpp */,
 				0766B27A237335E1005247C5 /* MinimumGeneticMutation.cpp */,
 				0766B27C2374094B005247C5 /* QueueReconstructionByHeight.cpp */,
+				07B7F6AC238D5B2300EA9C10 /* FindTheDuplicateNumber.cpp */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -852,6 +879,7 @@
 				0781AAE023265B3E00D8BC74 /* Flipping Bits.cpp in Sources */,
 				076410992323F8AF00A3D2A6 /* isBalanced.cpp in Sources */,
 				07B5BD2B235A46AE00FA2F33 /* JewelsAndStones.cpp in Sources */,
+				07B7F6AD238D5B2300EA9C10 /* FindTheDuplicateNumber.cpp in Sources */,
 				07ED121D2339126C00B6DECC /* HashTables_RansomNote.swift in Sources */,
 				07284F60233CDC3700D6F191 /* DesignerPDFViewer.cpp in Sources */,
 				07398F432358C57C00222F7D /* SubSets.cpp in Sources */,
@@ -880,6 +908,7 @@
 				077E324B23406D8A0003BF9F /* DiagonalDifference.cpp in Sources */,
 				073C19C9231E839B004B5B9F /* TowerBreakers.swift in Sources */,
 				0781AAED2326964D00D8BC74 /* Max Array Sum.swift in Sources */,
+				0773D36C23A11533006560AF /* TrappingRainWater.cpp in Sources */,
 				071F31CA232BB3C100D5089C /* FrogRiverOne.swift in Sources */,
 				071FA6DB23281897005490BE /* OddOccurrenciesInArray.cpp in Sources */,
 				0721B84C2354A97C00D6E5EB /* FirstMissingPositive.cpp in Sources */,
@@ -899,10 +928,13 @@
 				077E3245234065C60003BF9F /* CompareTriplets.cpp in Sources */,
 				077E325523407EBC0003BF9F /* TimeConversion.cpp in Sources */,
 				072E6699233941BA001737FF /* SherlockAndAnagrams_M.cpp in Sources */,
+				07B7F6A9238D4AD400EA9C10 /* bestTimeToBuyAndSellStock.cpp in Sources */,
+				0788542E239D258800B31331 /* GenomicRangeQuery.swift in Sources */,
 				0766D2E62337BA80006D9E2E /* JumpingOnTheClouds.swift in Sources */,
 				07D30A622338E2BB000EA0DA /* RepeatedString.swift in Sources */,
 				071F31BD232B727200D5089C /* PermCheck.swift in Sources */,
 				073C19C1231E677E004B5B9F /* Mini-MaxSum.swift in Sources */,
+				07D4994F239BC8390099B7A9 /* MaxCounters.swift in Sources */,
 				071F31CD232BB57D00D5089C /* FrogRiverOne.cpp in Sources */,
 				0781AAE42326701A00D8BC74 /* LargestRectangle.swift in Sources */,
 				0783EC33234BCCEA009449C7 /* Day20_SortingBubble.cpp in Sources */,
@@ -936,6 +968,7 @@
 				073C19CF231E91FB004B5B9F /* AppleAndOrange.swift in Sources */,
 				0781AAF92326D2D000D8BC74 /* Max Min.swift in Sources */,
 				384A22E422B3EE870047D20C /* anagramExam.cpp in Sources */,
+				07B7F6A5238D37D600EA9C10 /* PushDominoes.cpp in Sources */,
 				384A22E022B3EE620047D20C /* InsertionSort.cpp in Sources */,
 				0783EC35234BCFEA009449C7 /* Day18_QueuesAndStacks.cpp in Sources */,
 				073C19D5231EA4B1004B5B9F /* SockMerchant.swift in Sources */,
@@ -1005,11 +1038,13 @@
 				075D580923254DD6004CBD60 /* sstream Exam.cpp in Sources */,
 				071C93D0232E3A1400F01903 /* MaxProductOfThree.swift in Sources */,
 				077542A32331FD8600CF6C40 /* Day1_DataTypes.cpp in Sources */,
+				07B7F6B1238EA57800EA9C10 /* HouseRobber.cpp in Sources */,
 				0722386923290F3400C9421B /* PermMissingElem.swift in Sources */,
 				074439E9231FF2ED00967116 /* New Year Chaos.swift in Sources */,
 				072AF7ED233297210030258A /* Day2_Operators.cpp in Sources */,
 				072E669B23394AA7001737FF /* (N)CountTriplets.cpp in Sources */,
 				0754ED902343D3C30032448F /* Day15_LinkedList.cpp in Sources */,
+				07B7F6AB238D590200EA9C10 /* MinCostClimbingStairs.cpp in Sources */,
 				0781AAF323269DE700D8BC74 /* Minimum Swaps2.cpp in Sources */,
 				0764108F2323CDFA00A3D2A6 /* Greedy Florist.cpp in Sources */,
 				076410942323E8AE00A3D2A6 /* What Flavors.cpp in Sources */,
@@ -1017,6 +1052,7 @@
 				077542AB23324F2200CF6C40 /* MissingIntegers.swift in Sources */,
 				071FA6DD23281947005490BE /* OddOccurrenciesInArray.swift in Sources */,
 				073C19BA231E5FD6004B5B9F /* Staircase.swift in Sources */,
+				07B7F6A7238D3A9700EA9C10 /* countingBits.cpp in Sources */,
 				0766B27D2374094B005247C5 /* QueueReconstructionByHeight.cpp in Sources */,
 				071C93D8232E495300F01903 /* Triangle.cpp in Sources */,
 				072A789F2333E5510084DDC4 /* Day3_IntroToConditionalStatements.cpp in Sources */,
