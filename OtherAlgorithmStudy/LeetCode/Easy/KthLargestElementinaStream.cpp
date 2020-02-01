@@ -21,16 +21,17 @@ private:
 public:
     KthLargest(int k, vector<int>& nums) {
         V = nums;
-        sort(V.begin(), V.end(), greater<int>());
+        sort(V.begin(), V.end(), greater<int>()); // 내림차순 정렬
         K = k;
     }
     
     int add(int val) {
-        binarySearch(val);
-        return V[K-1];
+        binarySearch(val); // 이진탐색으로 현재 넣을 값의 위치를 구하고 그 위치에 삽입한다.
+        return V[K-1]; // 추가 후의 K번째 인덱스의 값을 반환한다.
     }
     
     void binarySearch(int val) {
+        // 추가할 값을 어느곳에 넣을 지를 판단하는 이진탐색 과정
         int left=0, right=V.size()-1;
         int mid=0;
         while(left <= right) {
