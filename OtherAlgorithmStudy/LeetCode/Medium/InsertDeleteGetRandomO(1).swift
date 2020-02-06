@@ -8,7 +8,7 @@
 
 // MARK: InsertDeleteGetRandomO(1) Swift 풀이답안
 
-/*
+
  import Foundation
 
  class RandomizedSet {
@@ -18,7 +18,6 @@
 
  /** Initialize your data structure here. */
     init() {
-
     }
 
  /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
@@ -64,4 +63,4 @@
    * let ret_2: Bool = obj.remove(val)
    * let ret_3: Int = obj.getRandom()
   */
- */
+ 
