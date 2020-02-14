@@ -11,20 +11,20 @@
 /// A의 요소를 제외 한 양수 중 가장 작은 양수값을 출력해라!
 
 /*
-// MARK: - 복습 풀이 '19. 12. 09.
-import Foundation
+ // MARK: - 복습 풀이 '19. 12. 09.
+ import Foundation
 
-public func solution2(_ A : inout [Int]) -> Int {
-    A.sort()
-    if A.last! < 0 { return 1 }
-    var Ans = 1
-    for i in A.indices {
-        if A[i] < 0 { continue }
-        if Ans < A[i] { return Ans }
-        else { Ans = A[i] + 1 }
-    }
-    return Ans
-}
+ public func solution2(_ A : inout [Int]) -> Int {
+ A.sort()
+ if A.last! < 0 { return 1 }
+ var Ans = 1
+ for i in A.indices {
+     if A[i] < 0 { continue }
+     if Ans < A[i] { return Ans }
+     else { Ans = A[i] + 1 }
+ }
+ return Ans
+ }
  */
 
 /// * O(N) or O(NlogN) 답안
