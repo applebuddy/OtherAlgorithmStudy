@@ -6,8 +6,44 @@
 //  Copyright © 2020 Min Kyeong Tae. All rights reserved.
 //
 
-// MARK: K Diff Pairs In An Array
-// MARK: - Set, twoPointer 사용 문제풀이
+// MARK: - K Diff Pairs In An Array
+
+// MARK: Set, TwoPointer 활용 복습 문제풀이
+/*
+struct Pair: Hashable {
+    var i = 0
+    var j = 0
+    init(_ i: Int, _ j: Int) {
+        self.i = i
+        self.j = j
+    }
+}
+
+class Solution {
+    func findPairs(_ nums: [Int], _ k: Int) -> Int {
+        var dic = [Int:Int]()
+        var Ans = Set<Pair>()
+        
+        var arr = nums.sorted()
+        var i = 0, j = 1
+        print(arr)
+        while i < arr.count && j < arr.count {
+            if arr[j] - arr[i] >= k {
+                if arr[j] - arr[i] == k { Ans.insert(Pair(arr[i], arr[j])) }
+                i += 1
+            } else {
+                j += 1
+            }
+            
+            if i == j { j += 1 }
+        }
+
+        return Ans.count
+    }
+}
+*/
+
+// MARK: Set, twoPointer 사용 문제풀이
 
 /*
 import Foundation
