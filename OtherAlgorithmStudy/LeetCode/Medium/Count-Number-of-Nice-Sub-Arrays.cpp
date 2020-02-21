@@ -7,8 +7,26 @@
 //
 
 // MARK: - Count-Number-of-Nice-Sub-Arrays
-// MARK: TP 문제풀이 (복습 필요)
 
+// MARK: 복습 풀이
+#if 0
+class Solution {
+public:
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        vector<int> cnt(nums.size()+1, 0);
+        cnt[0] = 1;
+        int idx = 0, Ans = 0;
+        for(auto &v: nums) {
+            idx += (v & 1);
+            cnt[idx]++;
+            if(k<=idx) Ans += cnt[idx-k];
+        }
+        return Ans;
+    }
+};
+#endif
+
+// MARK: TP 문제풀이 (복습 필요)
 #if 0
 #include <vector>
 using namespace std;
