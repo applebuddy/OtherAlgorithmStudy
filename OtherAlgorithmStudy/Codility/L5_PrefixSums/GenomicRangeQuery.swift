@@ -6,9 +6,9 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+/// * 62% 미해결, 실행시간 2/3로 줄인 버전
+/*
 import Foundation
-
-// 62% 미해결, 실행시간 2/3로 줄인 버전
 
 public func solution2(_ S: inout String, _ P: inout [Int], _ Q: inout [Int]) -> [Int] {
     var Ans = [Int]()
@@ -79,3 +79,4 @@ public func solution(_ S: inout String, _ P: inout [Int], _ Q: inout [Int]) -> [
 
     return Ans
 }
+*/
