@@ -11,8 +11,32 @@
 /// MARK: A[K] == N+1 ? -> 현재 배열의 최댓값으로 모든 답안 요소를 초기화
 /// * 그 이외의 값은 N번째의 요소를 ++ 시킨다.
 
-/// MARK: - 정확성, 효율정 100% 통과 답안
+// MARK: - C++ 복습 문제풀이
+#if 0
+#include <vector>
+using namespace std;
+
+vector<int> solution(int N, vector<int> &A) {
+    vector<int> Ans(N, 0);
+    int maxV = 0;
+    int tempMax = 0;
+    for(int i=0; i<(int)A.size(); i++) {
+        if(A[i]==N+1) maxV = tempMax;
+        else {
+            if(Ans[A[i]-1] < maxV) Ans[A[i]-1] = maxV;
+            Ans[A[i]-1]++;
+            tempMax = tempMax < Ans[A[i]-1] ? Ans[A[i]-1] : tempMax;
+        }
+    }
+    
+    for(int i=0; i<(int)Ans.size(); i++) Ans[i] = Ans[i] < maxV ? maxV : Ans[i];
+    return Ans;
+}
+#endif
+
+/// MARK: - 정확성, 효율정 100% 통과 답안 with Mark-Up
 /// * Key Point : 최댓값 갱신 횟수를 최소화 한다..
+#if 0
 #include <algorithm>
 #include <cmath>
 #include <vector>
@@ -46,6 +70,7 @@ vector<int> maxCounters(int N, vector<int> &A) {
     
     return Ans;
 }
+#endif
 
 /////// MARK: 정확성 100%, 효율성 60% 답안.
 /////// -> 최댓값 연산 효율이 필요
