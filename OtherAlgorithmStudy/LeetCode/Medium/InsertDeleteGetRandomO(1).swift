@@ -8,7 +8,7 @@
 
 // MARK: InsertDeleteGetRandomO(1) Swift 풀이답안
 
-
+/*
  import Foundation
 
  class RandomizedSet {
@@ -57,10 +57,11 @@
  }
 
  /**
-   * Your RandomizedSet object will be instantiated and called as such:
-   * let obj = RandomizedSet()
-   * let ret_1: Bool = obj.insert(val)
-   * let ret_2: Bool = obj.remove(val)
-   * let ret_3: Int = obj.getRandom()
+    * Your RandomizedSet object will be instantiated and called as such:
+    * let obj = RandomizedSet()
+    * let ret_1: Bool = obj.insert(val)
+    * let ret_2: Bool = obj.remove(val)
+    * let ret_3: Int = obj.getRandom()
   */
- 
+
+ */
