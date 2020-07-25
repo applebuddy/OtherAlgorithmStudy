@@ -7,8 +7,9 @@
 //
 
 // MARK: - 홀수의 합
+
 /*
-let input = readLine()!._split(separator: " ").map { Int($0)! }
-let A = input[0], B = input[1]
-print([Int](A...B).filter { $0 & 1 == 1 }.reduce(0,+))
-*/
+ let input = readLine()!._split(separator: " ").map { Int($0)! }
+ let A = input[0], B = input[1]
+ print([Int](A...B).filter { $0 & 1 == 1 }.reduce(0,+))
+ */

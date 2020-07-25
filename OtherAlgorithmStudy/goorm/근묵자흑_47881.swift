@@ -7,8 +7,9 @@
 //
 
 // MARK: - 근묵자흑 47881
+
 /*
-let input = readLine()!.split(separator: " ").map { Int($0)! }
-let N = input[0], K = input[1]
-print(((N-K-1)/(K-1))+2)
-*/
+ let input = readLine()!.split(separator: " ").map { Int($0)! }
+ let N = input[0], K = input[1]
+ print(((N-K-1)/(K-1))+2)
+ */

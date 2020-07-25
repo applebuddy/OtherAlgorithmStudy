@@ -7,19 +7,21 @@
 //
 
 // MARK: - 피보나치수열 43088
+
 // MARK: swift 문제풀이
+
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
-var DP = [Int](repeating: 1, count: N+1)
-var Ans = 0
-for i in 1...N {
-        if i >= 3 {
-                DP[i] = DP[i-1] + DP[i-2]
-        }
-        Ans += DP[i]
-}
+ let N = Int(readLine()!)!
+ var DP = [Int](repeating: 1, count: N+1)
+ var Ans = 0
+ for i in 1...N {
+ if i >= 3 {
+         DP[i] = DP[i-1] + DP[i-2]
+ }
+ Ans += DP[i]
+ }
 
-print(Ans)
-*/
+ print(Ans)
+ */

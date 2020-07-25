@@ -9,81 +9,82 @@
 // MARK: Min Stack
 
 /**
-* Your MinStack object will be instantiated and called as such:
-* let obj = MinStack()
-* obj.push(x)
-* obj.pop()
-* let ret_3: Int = obj.top()
-* let ret_4: Int = obj.getMin()
-*/
+ * Your MinStack object will be instantiated and called as such:
+ * let obj = MinStack()
+ * obj.push(x)
+ * obj.pop()
+ * let ret_3: Int = obj.top()
+ * let ret_4: Int = obj.getMin()
+ */
 
 // MARK: - 스택 2개(STK, minSTK) 활용 복습 문제풀이
-/*
-class MinStack {
 
-    var STK = [Int]()
-    var minSTK = [Int]()
-    
-    init() {
-        
-    }
-    
-    func push(_ x: Int) {
-        STK.append(x)
-        if minSTK.isEmpty || minSTK.last! >= x { minSTK.append(x) }
-    }
-    
-    func pop() {
-        if STK.last! == minSTK.last! { minSTK.removeLast() }
-        STK.removeLast()
-    }
-    
-    func top() -> Int {
-        return STK.last!
-    }
-    
-    func getMin() -> Int {
-        return minSTK.last!
-    }
-}
-*/
+/*
+ class MinStack {
+
+ var STK = [Int]()
+ var minSTK = [Int]()
+
+ init() {
+
+ }
+
+ func push(_ x: Int) {
+     STK.append(x)
+     if minSTK.isEmpty || minSTK.last! >= x { minSTK.append(x) }
+ }
+
+ func pop() {
+     if STK.last! == minSTK.last! { minSTK.removeLast() }
+     STK.removeLast()
+ }
+
+ func top() -> Int {
+     return STK.last!
+ }
+
+ func getMin() -> Int {
+     return minSTK.last!
+ }
+ }
+ */
 
 // MARK: - 스택 2개 활용 문제풀이
 
 /*
-import Foundation
+ import Foundation
 
-class MinStack {
+ class MinStack {
 
-    var STK = [Int]()
-    var minSTK = [Int]()
-    
-    init() {
-        
-    }
-    
-    func push(_ x: Int) {
-        STK.append(x)
-        if minSTK.isEmpty || minSTK.last! >= x {
-            minSTK.append(x)
-        }
-    }
-    
-    func pop() {
-        if STK.last! == minSTK.last! {
-            minSTK.removeLast()
-        }
-        STK.removeLast()
-    }
-    
-    func top() -> Int {
-        return STK.last!
-    }
-    
-    func getMin() -> Int {
-        return minSTK.last!
-    }
-}
+ var STK = [Int]()
+ var minSTK = [Int]()
+
+ init() {
+
+ }
+
+ func push(_ x: Int) {
+     STK.append(x)
+     if minSTK.isEmpty || minSTK.last! >= x {
+         minSTK.append(x)
+     }
+ }
+
+ func pop() {
+     if STK.last! == minSTK.last! {
+         minSTK.removeLast()
+     }
+     STK.removeLast()
+ }
+
+ func top() -> Int {
+     return STK.last!
+ }
+
+ func getMin() -> Int {
+     return minSTK.last!
+ }
+ }
  */
 
 /**

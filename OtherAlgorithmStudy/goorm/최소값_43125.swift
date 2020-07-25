@@ -7,12 +7,13 @@
 //
 
 // MARK: - 최소값 43125
+
 // MARK: 문제풀이
 
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
-let arr = readLine()!.split(separator: " ").map { Int($0)! }
-print(arr.min()!)
-*/
+ let N = Int(readLine()!)!
+ let arr = readLine()!.split(separator: " ").map { Int($0)! }
+ print(arr.min()!)
+ */

@@ -7,10 +7,12 @@
 //
 
 // MARK: - 홀짝판별 43111
-// MARK: 문제풀이
-/*
-import Foundation
 
-let N = Int(readLine()!)!
-print(N & 1 == 1 ? "odd" : "even")
-*/
+// MARK: 문제풀이
+
+/*
+ import Foundation
+
+ let N = Int(readLine()!)!
+ print(N & 1 == 1 ? "odd" : "even")
+ */

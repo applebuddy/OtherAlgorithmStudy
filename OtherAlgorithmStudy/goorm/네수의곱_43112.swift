@@ -7,14 +7,15 @@
 //
 
 // MARK: - 네수의곱_43112
+
 // MARK: 문제풀이
 
 /*
-let arr = readLine()!.split(separator: " ").map { Int($0)! }
+ let arr = readLine()!.split(separator: " ").map { Int($0)! }
 
-func mul(_ A: Int, _ B: Int) -> Int {
-        return A * B
-}
+ func mul(_ A: Int, _ B: Int) -> Int {
+ return A * B
+ }
 
-print(mul(mul(arr[0],arr[1]),mul(arr[2],arr[3])))
-*/
+ print(mul(mul(arr[0],arr[1]),mul(arr[2],arr[3])))
+ */

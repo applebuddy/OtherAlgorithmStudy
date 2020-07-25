@@ -7,10 +7,11 @@
 //
 
 // MARK: - 문자열뒤집기 43219
+
 // MARK: swift 문제풀이
 
 /*
-import Foundation
-let S = Array(readLine()!).map { String($0) }.reversed().joined()
-print(S)
-*/
+ import Foundation
+ let S = Array(readLine()!).map { String($0) }.reversed().joined()
+ print(S)
+ */

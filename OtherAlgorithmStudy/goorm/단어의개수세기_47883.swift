@@ -7,10 +7,11 @@
 //
 
 // MARK: - 단어의 개수 세기 47883
+
 // MARK: 문제풀이
 
 /*
-import Foundation
-let arr = readLine()!.split(separator: " ")
-print(arr.count)
-*/
+ import Foundation
+ let arr = readLine()!.split(separator: " ")
+ print(arr.count)
+ */

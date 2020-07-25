@@ -7,10 +7,11 @@
 //
 
 // MARK: - 부분문자열
-/*
-let input = Array(readLine()!).map { String($0) }
 
-for i in input.indices {
-        print(input[0...i].joined())
-}
-*/
+/*
+ let input = Array(readLine()!).map { String($0) }
+
+ for i in input.indices {
+ print(input[0...i].joined())
+ }
+ */

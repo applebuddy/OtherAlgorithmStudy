@@ -7,7 +7,7 @@
 //
 
 // MARK: - Min Cost Climbing Stairs
-
+#if 0
 #include <vector>
 using namespace std;
 
@@ -23,3 +23,4 @@ public:
         return min(f1,f2);
     }
 };
+#endif

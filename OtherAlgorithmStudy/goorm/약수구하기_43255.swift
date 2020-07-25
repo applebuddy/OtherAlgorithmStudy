@@ -7,12 +7,13 @@
 //
 
 // MARK: 약수구하기 문제풀이
+
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
+ let N = Int(readLine()!)!
 
-for i in 1...N {
-        if N % i == 0 { print(i, terminator: " ") }
-}
-*/
+ for i in 1...N {
+ if N % i == 0 { print(i, terminator: " ") }
+ }
+ */

@@ -7,6 +7,7 @@
 //
 
 // MARK: - 문자열 뒤집기
+
 /*
-print(Array(readLine()!).reversed().map { String($0) }.joined())
-*/
+ print(Array(readLine()!).reversed().map { String($0) }.joined())
+ */

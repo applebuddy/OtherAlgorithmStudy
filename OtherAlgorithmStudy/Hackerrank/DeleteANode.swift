@@ -7,24 +7,25 @@
 //
 
 // MARK: Delete a Node
+
 /*
- 
-import Foundation
- 
-/*
- * For your reference:
- *
- * SinglyLinkedListNode {
- *     data: Int
- *     next: SinglyLinkedListNode?
- * }
- *
- */
- 
-func deleteNode(llist: SinglyLinkedListNode?, position: Int) -> SinglyLinkedListNode? {
+
+ import Foundation
+
+ /*
+  * For your reference:
+  *
+  * SinglyLinkedListNode {
+  *     data: Int
+  *     next: SinglyLinkedListNode?
+  * }
+  *
+  */
+
+ func deleteNode(llist: SinglyLinkedListNode?, position: Int) -> SinglyLinkedListNode? {
     if position == 0 { return llist?.next }
     llist?.next = deleteNode(llist: llist?.next, position: position - 1)
     return llist
-}
- 
-*/
+ }
+
+ */

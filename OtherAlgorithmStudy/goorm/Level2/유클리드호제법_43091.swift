@@ -7,16 +7,16 @@
 //
 
 // MARK: - 유클리드호제법 43091
+
 // MARK: swift 문제풀이
 
 /*
-let input = readLine()!.split(separator: " ").map { Int($0)! }
+ let input = readLine()!.split(separator: " ").map { Int($0)! }
 
-func getGCD(_ A: Int, _ B: Int) -> Int {
-        if B == 0 { return A }
-        return getGCD(B, A%B)
-}
+ func getGCD(_ A: Int, _ B: Int) -> Int {
+ if B == 0 { return A }
+ return getGCD(B, A%B)
+ }
 
-print(getGCD(input[0], input[1]))
-*/
-
+ print(getGCD(input[0], input[1]))
+ */

@@ -45,9 +45,9 @@
  }
 
  /**
-   * Your KthLargest object will be instantiated and called as such:
-   * let obj = KthLargest(k, nums)
-   * let ret_1: Int = obj.add(val)
+    * Your KthLargest object will be instantiated and called as such:
+    * let obj = KthLargest(k, nums)
+    * let ret_1: Int = obj.add(val)
   */
 
  */

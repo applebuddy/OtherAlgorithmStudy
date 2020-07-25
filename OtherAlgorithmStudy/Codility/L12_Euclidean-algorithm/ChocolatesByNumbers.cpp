@@ -13,11 +13,19 @@
 #include <iostream>
 using namespace std;
 
-int getGCD(int A, int B) {
-    if(B==0) return A;
-    return getGCD(B, A%B);
+void getC(const char &c) {
+    printf("%c\n",c);
 }
-int solution(int N, int M) {
-    return N/getGCD(N,M);
+int main() {
+    char s = 'c';
+    getC(s);
+    return 0;
 }
+//int getGCD(int A, int B) {
+//    if(B==0) return A;
+//    return getGCD(B, A%B);
+//}
+//int solution(int N, int M) {
+//    return N/getGCD(N,M);
+//}
 #endif

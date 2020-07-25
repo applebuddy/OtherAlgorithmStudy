@@ -6,6 +6,7 @@
 //  Copyright © 2019 Min Kyeong Tae. All rights reserved.
 //
 
+#if 0
 #include <string>
 using namespace std;
 
@@ -31,3 +32,4 @@ public:
         return Ans;
     }
 };
+#endif

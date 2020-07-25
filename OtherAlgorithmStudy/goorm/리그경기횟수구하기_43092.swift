@@ -7,15 +7,16 @@
 //
 
 // MARK: - 리그경기횟수구하기 43092
+
 // MARK: 문제풀이
 
 /*
-import Foundation
-let N = Int(readLine()!)!
-var Ans = 0
-for i in 1..<N {
-    Ans += i
-}
+ import Foundation
+ let N = Int(readLine()!)!
+ var Ans = 0
+ for i in 1..<N {
+ Ans += i
+ }
 
-print(Ans)
-*/
+ print(Ans)
+ */

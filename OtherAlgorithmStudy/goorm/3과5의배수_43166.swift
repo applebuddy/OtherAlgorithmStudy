@@ -7,17 +7,19 @@
 //
 
 // MARK: - 3과5의배수 43166
+
 // MARK: Math 문제풀이
+
 /*
-import Foundation
+ import Foundation
 
-let N = Int(readLine()!)!
+ let N = Int(readLine()!)!
 
-if N <= 2 { print(0); exit(0) }
-var Ans = 0
-for i in 3...N {
-        if i % 3 == 0 || i % 5 == 0 { Ans += i }
-}
+ if N <= 2 { print(0); exit(0) }
+ var Ans = 0
+ for i in 3...N {
+ if i % 3 == 0 || i % 5 == 0 { Ans += i }
+ }
 
-print(Ans)
-*/
+ print(Ans)
+ */

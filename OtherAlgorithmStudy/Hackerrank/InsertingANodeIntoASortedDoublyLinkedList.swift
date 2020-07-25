@@ -14,7 +14,7 @@ import Foundation
 
 /*
 
-final class DoublyLinkedListNode {
+ final class DoublyLinkedListNode {
     var data: Int
     var next: DoublyLinkedListNode?
     weak var prev: DoublyLinkedListNode?
@@ -22,9 +22,9 @@ final class DoublyLinkedListNode {
     public init(nodeData: Int) {
         self.data = nodeData
     }
-}
+ }
 
-final class DoublyLinkedList {
+ final class DoublyLinkedList {
     var head: DoublyLinkedListNode?
     var tail: DoublyLinkedListNode?
 
@@ -44,9 +44,9 @@ final class DoublyLinkedList {
 
         tail = node
     }
-}
+ }
 
-func printDoublyLinkedList(head: DoublyLinkedListNode?, sep: String, fileHandle: FileHandle) {
+ func printDoublyLinkedList(head: DoublyLinkedListNode?, sep: String, fileHandle: FileHandle) {
     var node = head
 
     while node != nil {
@@ -58,21 +58,21 @@ func printDoublyLinkedList(head: DoublyLinkedListNode?, sep: String, fileHandle:
             fileHandle.write(sep.data(using: .utf8)!)
         }
     }
-}
+ }
 
-// Complete the sortedInsert function below.
+ // Complete the sortedInsert function below.
 
-/*
- * For your reference:
- *
- * DoublyLinkedListNode {
- *     data: Int
- *     next: DoublyLinkedListNode?
- *     prev: DoublyLinkedListNode?
- * }
- *
- */
-func sortedInsert(llist: DoublyLinkedListNode?, data: Int) -> DoublyLinkedListNode? {
+ /*
+  * For your reference:
+  *
+  * DoublyLinkedListNode {
+  *     data: Int
+  *     next: DoublyLinkedListNode?
+  *     prev: DoublyLinkedListNode?
+  * }
+  *
+  */
+ func sortedInsert(llist: DoublyLinkedListNode?, data: Int) -> DoublyLinkedListNode? {
     let newNode = DoublyLinkedListNode(nodeData: data)
     guard let head = llist else { return newNode }
 
@@ -88,16 +88,16 @@ func sortedInsert(llist: DoublyLinkedListNode?, data: Int) -> DoublyLinkedListNo
         return head
     }
 
-}
+ }
 
-let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
-FileManager.default.createFile(atPath: stdout, contents: nil, attributes: nil)
-let fileHandle = FileHandle(forWritingAtPath: stdout)!
+ let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
+ FileManager.default.createFile(atPath: stdout, contents: nil, attributes: nil)
+ let fileHandle = FileHandle(forWritingAtPath: stdout)!
 
-guard let t = Int((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!)
-else { fatalError("Bad input") }
+ guard let t = Int((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!)
+ else { fatalError("Bad input") }
 
-for tItr in 1...t {
+ for tItr in 1...t {
     guard let llistCount = Int((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!)
     else { fatalError("Bad input") }
 
@@ -116,5 +116,5 @@ for tItr in 1...t {
 
     printDoublyLinkedList(head: llist1, sep: " ", fileHandle: fileHandle)
     fileHandle.write("\n".data(using: .utf8)!)
-}
-*/
+ }
+ */
