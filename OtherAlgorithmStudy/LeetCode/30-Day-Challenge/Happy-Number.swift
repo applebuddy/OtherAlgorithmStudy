@@ -11,7 +11,7 @@ func isHappy(_ n: Int) -> Bool {
             sum += (tN % 10) * (tN % 10)
             tN /= 10
         }
-        
+
         if sum == 1 { return true }
         else if hash[sum] != nil { return false }
         hash[sum] = true
@@ -19,4 +19,3 @@ func isHappy(_ n: Int) -> Bool {
     }
     return true
 }
-
