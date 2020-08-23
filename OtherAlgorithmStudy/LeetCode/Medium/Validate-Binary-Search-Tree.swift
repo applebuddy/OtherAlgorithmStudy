@@ -21,20 +21,19 @@
 
 class Solution {
     func isValidBST(_ root: TreeNode?) -> Bool {
-        var root = root
-        var stack: [TreeNode?] = []
+        var stack = [TreeNode?]()
         var inorder = Int.min
-
-        while !stack.isEmpty || root != nil {
+        var root = root
+        while root != nil || !stack.isEmpty {
             while root != nil {
                 stack.append(root)
                 root = root?.left
             }
+            
             root = stack.removeLast()
-
-            if root?.val != nil, root!.val <= inorder { return false }
-            inorder = root?.val ?? 0
-            root = root?.right
+            if root != nil, root!.val <= inorder { return false }
+            inorder = root!.val
+            root = root.right
         }
         return true
     }
