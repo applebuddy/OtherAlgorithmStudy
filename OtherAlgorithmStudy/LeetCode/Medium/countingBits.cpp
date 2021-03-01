@@ -13,7 +13,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solutiwon {
 public:
     int countOne(int num) {
         int count = 0;

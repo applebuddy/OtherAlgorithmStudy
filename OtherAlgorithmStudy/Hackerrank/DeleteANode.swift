@@ -13,13 +13,13 @@
  import Foundation
 
  /*
-  * For your reference:
-  *
-  * SinglyLinkedListNode {
-  *     data: Int
-  *     next: SinglyLinkedListNode?
-  * }
-  *
+    * For your reference:
+    *
+    * SinglyLinkedListNode {
+    *     data: Int
+    *     next: SinglyLinkedListNode?
+    * }
+    *
   */
 
  func deleteNode(llist: SinglyLinkedListNode?, position: Int) -> SinglyLinkedListNode? {

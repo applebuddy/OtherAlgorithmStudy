@@ -63,14 +63,14 @@ import Foundation
  // Complete the sortedInsert function below.
 
  /*
-  * For your reference:
-  *
-  * DoublyLinkedListNode {
-  *     data: Int
-  *     next: DoublyLinkedListNode?
-  *     prev: DoublyLinkedListNode?
-  * }
-  *
+    * For your reference:
+    *
+    * DoublyLinkedListNode {
+    *     data: Int
+    *     next: DoublyLinkedListNode?
+    *     prev: DoublyLinkedListNode?
+    * }
+    *
   */
  func sortedInsert(llist: DoublyLinkedListNode?, data: Int) -> DoublyLinkedListNode? {
     let newNode = DoublyLinkedListNode(nodeData: data)
